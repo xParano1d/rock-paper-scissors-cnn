@@ -13,8 +13,7 @@ class RPS_CNN(nn.Module):
         
         #* WARSTWA KONWOLUCYJNA
         # padding='same' zachowuje rozmiar krawędzi obrazu (wymóg z projektu na 5.0)
-        self.conv1 = nn.Conv2d(in_channels=3, out_channels=self.num_filters, 
-                               kernel_size=self.kernel_size, padding='same')
+        self.conv1 = nn.Conv2d(in_channels=3, out_channels=self.num_filters, kernel_size=self.kernel_size, padding='same')
         # Funkcja aktywacji SiLU (zamiast ReLU) - lepsze wyniki w widzeniu maszynowym
         self.silu1 = nn.SiLU() 
         # MaxPool zmniejsza rozdzielczość o połowę (ze 128x128 na 64x64)
@@ -22,8 +21,7 @@ class RPS_CNN(nn.Module):
         
         #* WARSTWA KONWOLUCYJNA 
         # (Podwajamy liczbę filtrów)
-        self.conv2 = nn.Conv2d(in_channels=self.num_filters, out_channels=self.num_filters * 2, 
-                               kernel_size=self.kernel_size, padding='same')
+        self.conv2 = nn.Conv2d(in_channels=self.num_filters, out_channels=self.num_filters * 2, kernel_size=self.kernel_size, padding='same')
         self.silu2 = nn.SiLU()
         # MaxPool znów zmniejsza rozdzielczość (z 64x64 na 32x32)
         self.pool2 = nn.MaxPool2d(kernel_size=2, stride=2)

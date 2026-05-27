@@ -11,7 +11,7 @@ def get_data_loaders(data_dir='dataset', batch_size=32, img_size=128, train_spli
     transform = transforms.Compose([
         transforms.Resize((img_size, img_size)),
         transforms.ToTensor(),
-        # Normalizacja pikseli do przedziału [-1, 1] - sieci splotowe to uwielbiają
+        # Normalizacja pikseli do przedziału [-1, 1]
         transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])
     ])
 
@@ -48,7 +48,7 @@ if __name__ == "__main__":
     
     print("Ładowanie danych...")
     train_loader, val_loader, classes = get_data_loaders(
-        data_dir='dataset', 
+        data_dir='./dataset', 
         batch_size=B_SIZE, 
         img_size=IMG_SIZE
     )
