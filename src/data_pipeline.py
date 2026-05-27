@@ -6,12 +6,15 @@ import numpy as np
 
 def get_data_loaders(data_dir='dataset', batch_size=32, img_size=128, train_split=0.8):
    
-    #* IMAGE PROCESSING
-    # Ujednolicamy rozmiar i zamieniamy na Tensory.
+    #* IMAGE PROCESSING     (Transformacje + Chaos)
+    # Rzucamy modelowi kłody pod nogi, żeby uczył się kształtów, a nie plam!
     transform = transforms.Compose([
         transforms.Resize((img_size, img_size)),
+        
+        transforms.RandomRotation(45), # Losowo obraca rękę od -45 do 45 stopni
+        transforms.RandomAffine(degrees=0, translate=(0.2, 0.2)), # Przemieszcza łapę z dala od idealnego środka
+        
         transforms.ToTensor(),
-        # Normalizacja pikseli do przedziału [-1, 1]
         transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])
     ])
 
