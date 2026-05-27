@@ -1,0 +1,14 @@
+# Rdzeń PyTorcha - do budowy i trenowania sieci neuronowych
+torch
+
+# Biblioteka do pracy z obrazami w PyTorchu (zawiera np. ImageFolder i transforms)
+torchvision
+
+# Do generowania wykresów 3D i podglądu zdjęć
+matplotlib
+
+# Do operacji matematycznych i manipulacji tablicami (wymagane często przez matplotlib i PyTorch)
+numpy
+
+# Biblioteka do wczytywania i obróbki plików graficznych (wymagana przez torchvision)
+Pillow
