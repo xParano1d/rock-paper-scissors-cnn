@@ -1,11 +1,7 @@
 # temp python files
 __pycache__/
 *.pyc
-
 venv/
 env/
 
-
-# weights
-*.pth
-*.pt
+customVal/

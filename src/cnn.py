@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 
 class RPS_CNN(nn.Module):
-    def __init__(self, kernel_size=3, num_filters=16, hidden_neurons=64, dropout_rate=0.0):
+    def __init__(self, kernel_size=3, num_filters=16, hidden_neurons=64, dropout_rate=0.2):
         super(RPS_CNN, self).__init__()
         
         # --- Zmienne wyciągnięte do eksperymentów badawczych ---

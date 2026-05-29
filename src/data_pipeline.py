@@ -1,65 +1,62 @@
 import torch
 from torchvision import datasets, transforms
-from torch.utils.data import DataLoader, random_split
-import matplotlib.pyplot as plt
-import numpy as np
+from torch.utils.data import DataLoader
 
 def get_data_loaders(data_dir='dataset', batch_size=32, img_size=128, train_split=0.8):
    
-    #* IMAGE PROCESSING     (Transformacje + Chaos)
-    # Rzucamy modelowi kłody pod nogi, żeby uczył się kształtów, a nie plam!
-    transform = transforms.Compose([
+    # 1. TRANSFORMACJE TRENINGOWE (Kłody pod nogi)
+    train_transform = transforms.Compose([
         transforms.Resize((img_size, img_size)),
         
-        transforms.RandomRotation(45), # Losowo obraca rękę od -45 do 45 stopni
-        transforms.RandomAffine(degrees=0, translate=(0.2, 0.2)), # Przemieszcza łapę z dala od idealnego środka
+        transforms.RandomRotation(degrees=90),
+        transforms.RandomAffine(degrees=0, translate=(0.2, 0.2), scale=(0.7, 1.3)),
+        transforms.ColorJitter(brightness=0.4, contrast=0.4, saturation=0.4, hue=0.2),
         
+        
+        transforms.ToTensor(),
+        
+        transforms.RandomErasing(p=0.2, scale=(0.02, 0.15)),
+        
+        transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])
+    ])
+
+    # 2. TRANSFORMACJE WALIDACYJNE (Czysty egzamin)
+    # Żadnego wymazywania i obracania! Tylko to, co niezbędne dla wejścia sieci.
+    val_transform = transforms.Compose([
+        transforms.Resize((img_size, img_size)),
         transforms.ToTensor(),
         transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])
     ])
 
+    # 3. Wczytujemy zbiór podwójnie (PyTorch załaduje to sprytnie, nie bój się o RAM)
+    full_train_dataset = datasets.ImageFolder(root=data_dir, transform=train_transform)
+    full_val_dataset = datasets.ImageFolder(root=data_dir, transform=val_transform)
 
-    #* Załadowanie całego datasetu z folderu głównego
-    # ImageFolder automatycznie wykryje foldery 'paper', 'rock', 'scissors' jako klasy
-    full_dataset = datasets.ImageFolder(root=data_dir, transform=transform)
-
-    #*Dynamiczny podział na Train i Validation
-    total_size = len(full_dataset)
+    # Obliczamy wielkości
+    total_size = len(full_train_dataset)
     train_size = int(train_split * total_size)
     val_size = total_size - train_size
 
-    # Stały Seed, zawsze ten sam podział dataset'u
-    train_dataset, val_dataset = random_split(
-        full_dataset, 
-        [train_size, val_size],
-        generator=torch.Generator().manual_seed(179582) 
+    # 4. Losujemy wspólną listę indeksów (stały seed, żeby uniknąć wycieku danych)
+    indices = torch.randperm(total_size, generator=torch.Generator().manual_seed(179582)).tolist()
+    
+    train_idx = indices[:train_size]
+    val_idx = indices[train_size:]
+
+    # 5. Tworzymy ostateczne zbiory
+    # train_dataset dostaje transformacje treningowe
+    train_dataset = torch.utils.data.Subset(full_train_dataset, train_idx)
+    # val_dataset dostaje transformacje walidacyjne
+    val_dataset = torch.utils.data.Subset(full_val_dataset, val_idx)
+
+    # 6. Dataloadery z workerami na maksa
+    train_loader = DataLoader(
+        train_dataset, batch_size=batch_size, shuffle=True, 
+        num_workers=4, pin_memory=True, persistent_workers=True
+    )
+    val_loader = DataLoader(
+        val_dataset, batch_size=batch_size, shuffle=False, 
+        num_workers=4, pin_memory=True, persistent_workers=True
     )
 
-    #* Utworzenie DataLoaderów
-    # shuffle=True dla treningu, żeby sieć nie uczyła się sekwencji na pamięć
-    train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
-    val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False)
-
-    return train_loader, val_loader, full_dataset.classes
-
-
-#! --- BLOK TESTOWY ---
-if __name__ == "__main__":
-    # parametry
-    B_SIZE = 16
-    IMG_SIZE = 128
-    
-    print("Ładowanie danych...")
-    train_loader, val_loader, classes = get_data_loaders(
-        data_dir='./dataset', 
-        batch_size=B_SIZE, 
-        img_size=IMG_SIZE
-    )
-    
-    print(f"Znalezione klasy: {classes}")
-    print(f"Ilość paczek treningowych: {len(train_loader)} (po {B_SIZE} zdjęć)")
-    print(f"Ilość paczek walidacyjnych: {len(val_loader)} (po {B_SIZE} zdjęć)")
-
-    # test zgodnosci krztałtu pojedynczej paczki danych
-    images, labels = next(iter(train_loader))
-    print(f"\nKształt tensora obrazów: {images.shape}") 
+    return train_loader, val_loader, full_train_dataset.classes
