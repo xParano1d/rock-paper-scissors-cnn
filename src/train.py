@@ -14,7 +14,8 @@ def train_and_evaluate(
     kernel_size=3, 
     num_filters=16, 
     dropout_rate=0.2,
-    plot_results=False
+    plot_results=False,
+    save_model=False
 ):
     filename = f"Batch_{batch_size}_LR_{lr}_Kernel_{kernel_size}_Filters_{num_filters}_Dropout_{dropout_rate}"
     print("\n--- Start Treningu | "+filename.replace("_", " ")+" ---")
@@ -42,6 +43,11 @@ def train_and_evaluate(
     train_accuracies, val_accuracies = [], []
 
     best_val_acc = 0.0
+
+    # --- EARLY STOPPING VARIABLES ---
+    patience = 20
+    epochs_no_improve = 0
+    min_delta = 0.001
 
     for epoch in range(epochs):
         
@@ -102,11 +108,22 @@ def train_and_evaluate(
         # RAPORT DO KONSOLI
         current_lr = scheduler.get_last_lr()[0]
         print(f"Epoka [{epoch+1}/{epochs}]\t|  Train Acc: {train_acc:.2f}%  |  Val Acc: {val_acc:.2f}%  |  LR: {current_lr:.6f}")
-        # --- ZAPISYWANIE NAJLEPSZEGO MODELU ---
-        if val_acc > best_val_acc:
+        
+        # --- ZAPISYWANIE NAJLEPSZEGO MODELU I EARLY STOPPING ---
+        if val_acc > best_val_acc + min_delta:
             best_val_acc = val_acc
-            print(f"🌟 UWAGA: Nowy rekord walidacji! Zapisuję mózg sieci do pliku ({best_val_acc:.2f}%)")
-            torch.save(model.state_dict(), 'rps_model_best.pth')
+            epochs_no_improve = 0 # Resetujemy licznik, bo jest poprawa!
+            
+            if save_model:
+                print(f"->\t[UWAGA: Nowy rekord walidacji! Zapisuje model ({best_val_acc:.2f}%)] \t<-")
+                torch.save(model.state_dict(), 'rps_model_best.pth')
+        else:
+            epochs_no_improve += 1
+            print(f"!!!\t[Brak poprawy: {epochs_no_improve}/{patience}]\t!!!")
+            
+            if epochs_no_improve >= patience:
+                print(f"!!! Early Stopping: Model przestał się poprawiać po {epoch+1} epokach. !!!")
+                break 
 
     # --- FAZA 3: WIZUALIZACJA ---
     if plot_results:
@@ -120,7 +137,7 @@ def train_and_evaluate(
         plt.title('Krzywa błędu (Loss) - Trening vs Walidacja')
         plt.xlabel('Epoka')
         plt.ylabel('Błąd (CrossEntropyLoss)')
-        plt.grid(True, linestyle='--', alpha=0.7) # Delikatniejsza siatka w tle
+        plt.grid(True, linestyle='--', alpha=0.7)
         plt.legend()
 
         # Prawy wykres: Dokładność (Accuracy)
@@ -134,11 +151,11 @@ def train_and_evaluate(
         plt.legend()
 
         plt.tight_layout()
-        plt.show()
         plt.savefig(f"./figure/{filename}.png", dpi=300, bbox_inches="tight");
+        # plt.show()
 
-    # Na sam koniec funkcja musi "wypluć" ostateczny wynik walidacji, żebyśmy mogli go zapisać w tabeli
-    return val_accuracies[-1]
+    # Na koniec zwracamy wyniki
+    return train_accuracies[-1], val_accuracies[-1]
 
 
 # --- TARCZA OCHRONNA I TEST ---
@@ -147,14 +164,14 @@ def train_and_evaluate(
 if __name__ == "__main__":
     print("Odpalam testowy trening:")
     # Odpalamy funkcję i każemy jej narysować wykres po 10 epokach
+    
     train_and_evaluate(
-        epochs=200,              # Zostawiamy 55, sprawdziło się super
-        batch_size=64,          # Zwycięzca
+        epochs=100,             
+        batch_size=16,          # Zwycięzca
         lr=0.0005,              # Zwycięzca
         kernel_size=7,          # Zwycięzca
         num_filters=32,         # Zwycięzca
         dropout_rate=0.2,       # Zwycięzca
-        plot_results=True       # Chcemy zobaczyć ten piękny wykres na koniec
+        plot_results=True,      # Chcemy zobaczyć ten piękny wykres na koniec
+        save_model=True
     )
-
-    

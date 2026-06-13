@@ -1,72 +1,132 @@
 import itertools
-import numpy as np
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
 import os
+import csv
+import torch
+import gc
 
 from train import train_and_evaluate
 
-def run_grid_search():
-    # Upewniamy się, że folder na wykresy istnieje, żeby skrypt się nie wywalił na zapisie
-    if not os.path.exists("./figure"):
-        os.makedirs("./figure")
+def run_experiments():
+    if not os.path.exists("./figure/experiments"):
+        os.makedirs("./figure/experiments")
 
-    # --- LABORATORIUM ---
-    # ZMIENIAMY TYLKO 2 PIERWSZE ZMIENNE! Reszta zostaje po 1 opcji.
-    param_grid = {
-        'batch_size': [64, 128, 256],     # OŚ X (Wielkość paczki ładownana do VRAM)
-        'lr': [0.005, 0.001, 0.0005],     # OŚ Y (Krok uczenia)
-        'kernel_size': [7],               # ZABLOKOWANE (Nasz Mistrz)
-        'num_filters': [32],              # ZABLOKOWANE (Nasz Mistrz)
-        'dropout_rate': [0.2]             # ZABLOKOWANE (Nasz Mistrz)
+    
+    csv_file = "wyniki_eksperymentow.csv"
+    
+    # 1. Tworzymy nagłówek TYLKO RAZ, jeśli plik nie istnieje
+    if not os.path.exists(csv_file):
+        with open(csv_file, mode='w', newline='') as file:
+            writer = csv.writer(file)
+            # Tylko nazwy kolumn, żadnych 'params'!
+            writer.writerow(['Eksperyment', 'Batch_Size', 'LR', 'Kernel', 'Filters', 'Dropout', 'Train_Accuracy', 'Val_Accuracy'])
+
+    # =====================================================================
+    # EKSPERYMENT 1: ARCHITEKTURA (Zależność Kernela i Filtrów) - 20 testów
+    # =====================================================================
+    print("\n" + "="*50)
+    print("ROZPOCZYNAM EKSPERYMENT 1: ARCHITEKTURA")
+    print("="*50)
+    
+    param_grid_1 = {
+        'batch_size': [64],                 # ZAMROŻONE
+        'lr': [0.001],                      # ZAMROŻONE
+        'dropout_rate': [0.2],              # ZAMROŻONE
+        'kernel_size': [3, 5, 7, 15],           # ZMIENNA 1 (X)
+        'num_filters': [8, 16, 32, 64, 128]         # ZMIENNA 2 (Y)
     }
     
-    keys, values = zip(*param_grid.items())
-    combinations = [dict(zip(keys, v)) for v in itertools.product(*values)]
+    keys1, values1 = zip(*param_grid_1.items())
+    comb1 = [dict(zip(keys1, v)) for v in itertools.product(*values1)]
     
-    x_key, y_key = keys[0], keys[1]
-    x_vals, y_vals = param_grid[x_key], param_grid[y_key]
-    
-    # Macierz wyników dla osi Z (wypełniona zerami)
-    Z = np.zeros((len(y_vals), len(x_vals)))
-    
-    print(f"=== ODPALAM {len(combinations)} EKSPERYMENTÓW DLA: {x_key} vs {y_key} ===")
-    
-    for idx, params in enumerate(combinations):
-        print(f"\n[Eksperyment {idx+1}/{len(combinations)}] Parametry: {params}")
+    for params in comb1:
+        print(f"\n[Eksperyment 1] Parametry: {params}")
+        # Odbieramy obie wartości: treningową i walidacyjną
+        tr_acc, val_acc = train_and_evaluate(epochs=50, plot_results=False, save_model=False, **params)
+        print(f"-> Wynik (Val): {val_acc:.2f}% | (Train): {tr_acc:.2f}%")
         
-        val_acc = train_and_evaluate(
-            epochs=55, 
-            plot_results=True, 
-            **params
-        )
-        
-        print(f"-> Wynik (Val Acc): {val_acc:.2f}%")
-        
-        # Zapis do macierzy na podstawie indeksów wartości
-        x_idx = x_vals.index(params[x_key])
-        y_idx = y_vals.index(params[y_key])
-        Z[y_idx, x_idx] = val_acc
+        with open(csv_file, mode='a', newline='') as file:
+            writer = csv.writer(file)
+            writer.writerow([
+                'Eksperyment_1', 
+                params['batch_size'], 
+                params['lr'], 
+                params['kernel_size'], 
+                params['num_filters'], 
+                params['dropout_rate'], 
+                round(tr_acc, 2),
+                round(val_acc, 2)
+            ])
+        torch.cuda.empty_cache()
+        gc.collect()
 
-    # --- RYSOWANIE I ZAPIS WYKRESU 3D ---
-    print("\nEksperymenty zakończone. Generowanie i zapisywanie wykresu...")
-    fig = plt.figure(figsize=(10, 7))
-    ax = fig.add_subplot(111, projection='3d')
+    # =====================================================================
+    # EKSPERYMENT 2: DYNAMIKA UCZENIA (Batch vs LR) - 56 testów
+    # =====================================================================
+    print("\n" + "="*50)
+    print("ROZPOCZYNAM EKSPERYMENT 2: DYNAMIKA UCZENIA")
+    print("="*50)
     
-    X, Y = np.meshgrid(x_vals, y_vals)
-    surf = ax.plot_surface(X, Y, Z, cmap='plasma', edgecolor='k', alpha=0.8)
+    param_grid_2 = {
+        'kernel_size': [7],                 # ZAMROŻONE (ustaw swój najlepszy po 1 teście)
+        'num_filters': [32],                # ZAMROŻONE (ustaw swój najlepszy po 1 teście)
+        'dropout_rate': [0.2],              # ZAMROŻONE
+        'batch_size': [8, 16,],        # ZMIENNA 1 (X)           8, 16, 32, 64, 128, 256, 512
+        'lr': [0.1, 0.01, 0.005, 0.001, 0.0005, 0.0001, 0.00005, 0.00001] # ZMIENNA 2 (Y)
+    }
     
-    ax.set_xlabel(x_key)
-    ax.set_ylabel(y_key)
-    ax.set_zlabel('Accuracy [%]')
-    ax.set_title(f'Zależność Accuracy od {x_key} i {y_key}')
-    fig.colorbar(surf, shrink=0.5, aspect=0.5)
+    keys2, values2 = zip(*param_grid_2.items())
+    comb2 = [dict(zip(keys2, v)) for v in itertools.product(*values2)]
     
-    # Dynamiczna nazwa pliku na podstawie badanych parametrów
-    plot_filename = f"{x_key}_vs_{y_key}.png"
-    plt.savefig(f"./figure/{plot_filename}", dpi=300, bbox_inches="tight")
+    for params in comb2:
+        print(f"\n[Eksperyment 2] Parametry: {params}")
+        tr_acc, val_acc = train_and_evaluate(epochs=50, plot_results=False, save_model=False, **params)
+        print(f"-> Wynik (Val): {val_acc:.2f}% | (Train): {tr_acc:.2f}%")
+
+        with open(csv_file, mode='a', newline='') as file:
+            writer = csv.writer(file)
+            writer.writerow([
+                'Eksperyment_2', 
+                params['batch_size'], 
+                params['lr'], 
+                params['kernel_size'], 
+                params['num_filters'], 
+                params['dropout_rate'], 
+                round(tr_acc, 2),
+                round(val_acc, 2)
+            ])
+        torch.cuda.empty_cache()
+        gc.collect()
+
+    # # =====================================================================
+    # # EKSPERYMENT 3: REGULARYZACJA (Wpływ Dropoutu) - 11 testów
+    # # =====================================================================
+    # print("\n" + "="*50)
+    # print("ROZPOCZYNAM EKSPERYMENT 3: REGULARYZACJA (DROPOUT)")
+    # print("="*50)
     
-    print(f"Pomyślnie zapisano wykres jako: ./figure/{plot_filename}")
+    # dropouts = [0.0, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
+    # for d in dropouts:
+    #     params = {'batch_size': 64, 'lr': 0.0005, 'kernel_size': 7, 'num_filters': 32, 'dropout_rate': d}
+    #     print(f"\n[Eksperyment 3] Dropout: {d}")
+    #     tr_acc, val_acc = train_and_evaluate(epochs=50, plot_results=False, save_model=False, **params)
+    #     print(f"-> Wynik (Val): {val_acc:.2f}% | (Train): {tr_acc:.2f}%")
+
+    #     with open(csv_file, mode='a', newline='') as file:
+    #         writer = csv.writer(file)
+    #         writer.writerow([
+    #             'Eksperyment_3', 
+    #             params['batch_size'], 
+    #             params['lr'], 
+    #             params['kernel_size'], 
+    #             params['num_filters'], 
+    #             params['dropout_rate'], 
+    #             round(tr_acc, 2),
+    #             round(val_acc, 2)
+    #         ])
+    #     torch.cuda.empty_cache()
+    #     gc.collect()
+
+    print("\n[SUKCES] Maszyna skończyła. Wyniki są w wyniki_eksperymentow.csv")
 
 if __name__ == "__main__":
-    run_grid_search()
+    run_experiments()

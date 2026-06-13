@@ -1,0 +1,1817 @@
+Odpalam testowy trening:
+
+--- Start Treningu | Batch 64 LR 0.0005 Kernel 7 Filters 32 Dropout 0.2 ---
+Epoka [1/100]   |  Train Acc: 37.89%  |  Val Acc: 37.44%  |  LR: 0.000500
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (37.44%)]         <-
+Epoka [2/100]   |  Train Acc: 37.94%  |  Val Acc: 53.65%  |  LR: 0.000500
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (53.65%)]         <-
+Epoka [3/100]   |  Train Acc: 38.11%  |  Val Acc: 44.06%  |  LR: 0.000499
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [4/100]   |  Train Acc: 41.60%  |  Val Acc: 34.02%  |  LR: 0.000498
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [5/100]   |  Train Acc: 44.97%  |  Val Acc: 35.16%  |  LR: 0.000497
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [6/100]   |  Train Acc: 44.69%  |  Val Acc: 76.48%  |  LR: 0.000496
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (76.48%)]         <-
+Epoka [7/100]   |  Train Acc: 46.80%  |  Val Acc: 64.38%  |  LR: 0.000494
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [8/100]   |  Train Acc: 48.00%  |  Val Acc: 79.91%  |  LR: 0.000492
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (79.91%)]         <-
+Epoka [9/100]   |  Train Acc: 50.91%  |  Val Acc: 81.05%  |  LR: 0.000490
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (81.05%)]         <-
+Epoka [10/100]  |  Train Acc: 53.43%  |  Val Acc: 78.31%  |  LR: 0.000488
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [11/100]  |  Train Acc: 55.54%  |  Val Acc: 88.81%  |  LR: 0.000485
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (88.81%)]         <-
+Epoka [12/100]  |  Train Acc: 58.40%  |  Val Acc: 84.47%  |  LR: 0.000482
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [13/100]  |  Train Acc: 60.51%  |  Val Acc: 84.70%  |  LR: 0.000479
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [14/100]  |  Train Acc: 62.46%  |  Val Acc: 77.40%  |  LR: 0.000476
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [15/100]  |  Train Acc: 64.06%  |  Val Acc: 86.99%  |  LR: 0.000473
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [16/100]  |  Train Acc: 68.40%  |  Val Acc: 88.13%  |  LR: 0.000469
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [17/100]  |  Train Acc: 68.57%  |  Val Acc: 89.04%  |  LR: 0.000465
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (89.04%)]         <-
+Epoka [18/100]  |  Train Acc: 70.57%  |  Val Acc: 87.90%  |  LR: 0.000461
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [19/100]  |  Train Acc: 73.77%  |  Val Acc: 88.13%  |  LR: 0.000457
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [20/100]  |  Train Acc: 72.80%  |  Val Acc: 92.01%  |  LR: 0.000452
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (92.01%)]         <-
+Epoka [21/100]  |  Train Acc: 74.97%  |  Val Acc: 90.64%  |  LR: 0.000448
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [22/100]  |  Train Acc: 75.66%  |  Val Acc: 91.10%  |  LR: 0.000443
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [23/100]  |  Train Acc: 75.83%  |  Val Acc: 87.21%  |  LR: 0.000438
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [24/100]  |  Train Acc: 77.77%  |  Val Acc: 93.61%  |  LR: 0.000432
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (93.61%)]         <-
+Epoka [25/100]  |  Train Acc: 80.69%  |  Val Acc: 91.32%  |  LR: 0.000427
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [26/100]  |  Train Acc: 80.23%  |  Val Acc: 95.89%  |  LR: 0.000421
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (95.89%)]         <-
+Epoka [27/100]  |  Train Acc: 83.77%  |  Val Acc: 96.80%  |  LR: 0.000415
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (96.80%)]         <-
+Epoka [28/100]  |  Train Acc: 81.77%  |  Val Acc: 96.12%  |  LR: 0.000409
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [29/100]  |  Train Acc: 83.37%  |  Val Acc: 96.80%  |  LR: 0.000403
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [30/100]  |  Train Acc: 83.66%  |  Val Acc: 96.58%  |  LR: 0.000397
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [31/100]  |  Train Acc: 84.40%  |  Val Acc: 96.35%  |  LR: 0.000391
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [32/100]  |  Train Acc: 84.06%  |  Val Acc: 95.21%  |  LR: 0.000384
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [33/100]  |  Train Acc: 83.66%  |  Val Acc: 95.89%  |  LR: 0.000377
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [34/100]  |  Train Acc: 84.23%  |  Val Acc: 97.49%  |  LR: 0.000371
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (97.49%)]         <-
+Epoka [35/100]  |  Train Acc: 85.37%  |  Val Acc: 98.17%  |  LR: 0.000364
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (98.17%)]         <-
+Epoka [36/100]  |  Train Acc: 86.74%  |  Val Acc: 97.49%  |  LR: 0.000357
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [37/100]  |  Train Acc: 85.83%  |  Val Acc: 97.95%  |  LR: 0.000349
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [38/100]  |  Train Acc: 87.49%  |  Val Acc: 96.58%  |  LR: 0.000342
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [39/100]  |  Train Acc: 86.34%  |  Val Acc: 96.80%  |  LR: 0.000335
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [40/100]  |  Train Acc: 86.23%  |  Val Acc: 97.95%  |  LR: 0.000327
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [41/100]  |  Train Acc: 88.91%  |  Val Acc: 96.35%  |  LR: 0.000320
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [42/100]  |  Train Acc: 88.63%  |  Val Acc: 93.38%  |  LR: 0.000312
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [43/100]  |  Train Acc: 87.60%  |  Val Acc: 95.89%  |  LR: 0.000305
+!!!     [Brak poprawy: 8/20]    !!!
+Epoka [44/100]  |  Train Acc: 87.83%  |  Val Acc: 98.40%  |  LR: 0.000297
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (98.40%)]         <-
+Epoka [45/100]  |  Train Acc: 88.46%  |  Val Acc: 95.89%  |  LR: 0.000289
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [46/100]  |  Train Acc: 88.00%  |  Val Acc: 96.80%  |  LR: 0.000282
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [47/100]  |  Train Acc: 88.46%  |  Val Acc: 97.03%  |  LR: 0.000274
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [48/100]  |  Train Acc: 90.11%  |  Val Acc: 97.72%  |  LR: 0.000266
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [49/100]  |  Train Acc: 88.40%  |  Val Acc: 98.17%  |  LR: 0.000258
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [50/100]  |  Train Acc: 90.17%  |  Val Acc: 96.80%  |  LR: 0.000250
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [51/100]  |  Train Acc: 90.74%  |  Val Acc: 97.72%  |  LR: 0.000242
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [52/100]  |  Train Acc: 90.63%  |  Val Acc: 97.49%  |  LR: 0.000235
+!!!     [Brak poprawy: 8/20]    !!!
+Epoka [53/100]  |  Train Acc: 90.74%  |  Val Acc: 97.95%  |  LR: 0.000227
+!!!     [Brak poprawy: 9/20]    !!!
+Epoka [54/100]  |  Train Acc: 90.86%  |  Val Acc: 98.17%  |  LR: 0.000219
+!!!     [Brak poprawy: 10/20]   !!!
+Epoka [55/100]  |  Train Acc: 90.34%  |  Val Acc: 98.40%  |  LR: 0.000211
+!!!     [Brak poprawy: 11/20]   !!!
+Epoka [56/100]  |  Train Acc: 90.80%  |  Val Acc: 97.03%  |  LR: 0.000203
+!!!     [Brak poprawy: 12/20]   !!!
+Epoka [57/100]  |  Train Acc: 91.89%  |  Val Acc: 98.17%  |  LR: 0.000196
+!!!     [Brak poprawy: 13/20]   !!!
+Epoka [58/100]  |  Train Acc: 91.14%  |  Val Acc: 98.63%  |  LR: 0.000188
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (98.63%)]         <-
+Epoka [59/100]  |  Train Acc: 90.00%  |  Val Acc: 98.40%  |  LR: 0.000181
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [60/100]  |  Train Acc: 90.51%  |  Val Acc: 98.86%  |  LR: 0.000173
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (98.86%)]         <-
+Epoka [61/100]  |  Train Acc: 91.60%  |  Val Acc: 98.63%  |  LR: 0.000166
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [62/100]  |  Train Acc: 91.60%  |  Val Acc: 99.32%  |  LR: 0.000158
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (99.32%)]         <-
+Epoka [63/100]  |  Train Acc: 92.11%  |  Val Acc: 98.86%  |  LR: 0.000151
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [64/100]  |  Train Acc: 91.54%  |  Val Acc: 97.95%  |  LR: 0.000144
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [65/100]  |  Train Acc: 93.20%  |  Val Acc: 97.72%  |  LR: 0.000137
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [66/100]  |  Train Acc: 92.23%  |  Val Acc: 97.95%  |  LR: 0.000130
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [67/100]  |  Train Acc: 91.94%  |  Val Acc: 98.63%  |  LR: 0.000123
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [68/100]  |  Train Acc: 92.23%  |  Val Acc: 98.40%  |  LR: 0.000116
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [69/100]  |  Train Acc: 93.26%  |  Val Acc: 98.63%  |  LR: 0.000110
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [70/100]  |  Train Acc: 92.86%  |  Val Acc: 98.86%  |  LR: 0.000103
+!!!     [Brak poprawy: 8/20]    !!!
+Epoka [71/100]  |  Train Acc: 93.31%  |  Val Acc: 98.63%  |  LR: 0.000097
+!!!     [Brak poprawy: 9/20]    !!!
+Epoka [72/100]  |  Train Acc: 92.74%  |  Val Acc: 98.40%  |  LR: 0.000091
+!!!     [Brak poprawy: 10/20]   !!!
+Epoka [73/100]  |  Train Acc: 93.26%  |  Val Acc: 98.63%  |  LR: 0.000085
+!!!     [Brak poprawy: 11/20]   !!!
+Epoka [74/100]  |  Train Acc: 93.03%  |  Val Acc: 99.32%  |  LR: 0.000079
+!!!     [Brak poprawy: 12/20]   !!!
+Epoka [75/100]  |  Train Acc: 93.14%  |  Val Acc: 98.86%  |  LR: 0.000074
+!!!     [Brak poprawy: 13/20]   !!!
+Epoka [76/100]  |  Train Acc: 93.31%  |  Val Acc: 98.86%  |  LR: 0.000068
+!!!     [Brak poprawy: 14/20]   !!!
+Epoka [77/100]  |  Train Acc: 93.77%  |  Val Acc: 98.86%  |  LR: 0.000063
+!!!     [Brak poprawy: 15/20]   !!!
+Epoka [78/100]  |  Train Acc: 93.77%  |  Val Acc: 98.86%  |  LR: 0.000058
+!!!     [Brak poprawy: 16/20]   !!!
+Epoka [79/100]  |  Train Acc: 92.97%  |  Val Acc: 98.63%  |  LR: 0.000053
+!!!     [Brak poprawy: 17/20]   !!!
+Epoka [80/100]  |  Train Acc: 93.89%  |  Val Acc: 98.86%  |  LR: 0.000048
+!!!     [Brak poprawy: 18/20]   !!!
+Epoka [81/100]  |  Train Acc: 93.60%  |  Val Acc: 99.09%  |  LR: 0.000044
+!!!     [Brak poprawy: 19/20]   !!!
+Epoka [82/100]  |  Train Acc: 93.37%  |  Val Acc: 99.09%  |  LR: 0.000039
+!!!     [Brak poprawy: 20/20]   !!!
+!!! Early Stopping: Model przestał się poprawiać po 82 epokach. !!!
+Rysowanie wykresów...
+
+--- Start Treningu | Batch 64 LR 0.0005 Kernel 7 Filters 32 Dropout 0.2 ---
+Epoka [1/100]   |  Train Acc: 36.69%  |  Val Acc: 52.74%  |  LR: 0.000500
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (52.74%)]         <-
+Epoka [2/100]   |  Train Acc: 40.00%  |  Val Acc: 51.60%  |  LR: 0.000500
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [3/100]   |  Train Acc: 39.43%  |  Val Acc: 53.42%  |  LR: 0.000499
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (53.42%)]         <-
+Epoka [4/100]   |  Train Acc: 42.06%  |  Val Acc: 55.02%  |  LR: 0.000498
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (55.02%)]         <-
+Epoka [5/100]   |  Train Acc: 44.23%  |  Val Acc: 53.20%  |  LR: 0.000497
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [6/100]   |  Train Acc: 46.57%  |  Val Acc: 76.48%  |  LR: 0.000496
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (76.48%)]         <-
+Epoka [7/100]   |  Train Acc: 50.06%  |  Val Acc: 77.40%  |  LR: 0.000494
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (77.40%)]         <-
+Epoka [8/100]   |  Train Acc: 52.34%  |  Val Acc: 73.06%  |  LR: 0.000492
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [9/100]   |  Train Acc: 49.77%  |  Val Acc: 75.34%  |  LR: 0.000490
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [10/100]  |  Train Acc: 54.91%  |  Val Acc: 83.79%  |  LR: 0.000488
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (83.79%)]         <-
+Epoka [11/100]  |  Train Acc: 55.49%  |  Val Acc: 74.89%  |  LR: 0.000485
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [12/100]  |  Train Acc: 58.00%  |  Val Acc: 79.22%  |  LR: 0.000482
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [13/100]  |  Train Acc: 61.49%  |  Val Acc: 85.16%  |  LR: 0.000479
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (85.16%)]         <-
+Epoka [14/100]  |  Train Acc: 61.77%  |  Val Acc: 89.04%  |  LR: 0.000476
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (89.04%)]         <-
+Epoka [15/100]  |  Train Acc: 64.46%  |  Val Acc: 90.64%  |  LR: 0.000473
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (90.64%)]         <-
+Epoka [16/100]  |  Train Acc: 69.83%  |  Val Acc: 92.47%  |  LR: 0.000469
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (92.47%)]         <-
+Epoka [17/100]  |  Train Acc: 70.17%  |  Val Acc: 89.50%  |  LR: 0.000465
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [18/100]  |  Train Acc: 73.37%  |  Val Acc: 91.32%  |  LR: 0.000461
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [19/100]  |  Train Acc: 71.03%  |  Val Acc: 86.53%  |  LR: 0.000457
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [20/100]  |  Train Acc: 75.54%  |  Val Acc: 91.10%  |  LR: 0.000452
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [21/100]  |  Train Acc: 79.60%  |  Val Acc: 93.15%  |  LR: 0.000448
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (93.15%)]         <-
+Epoka [22/100]  |  Train Acc: 78.80%  |  Val Acc: 92.47%  |  LR: 0.000443
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [23/100]  |  Train Acc: 77.71%  |  Val Acc: 93.84%  |  LR: 0.000438
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (93.84%)]         <-
+Epoka [24/100]  |  Train Acc: 80.29%  |  Val Acc: 96.35%  |  LR: 0.000432
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (96.35%)]         <-
+Epoka [25/100]  |  Train Acc: 81.71%  |  Val Acc: 88.81%  |  LR: 0.000427
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [26/100]  |  Train Acc: 83.09%  |  Val Acc: 95.21%  |  LR: 0.000421
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [27/100]  |  Train Acc: 84.29%  |  Val Acc: 94.75%  |  LR: 0.000415
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [28/100]  |  Train Acc: 83.03%  |  Val Acc: 94.29%  |  LR: 0.000409
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [29/100]  |  Train Acc: 84.80%  |  Val Acc: 96.80%  |  LR: 0.000403
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (96.80%)]         <-
+Epoka [30/100]  |  Train Acc: 85.49%  |  Val Acc: 96.12%  |  LR: 0.000397
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [31/100]  |  Train Acc: 86.57%  |  Val Acc: 96.80%  |  LR: 0.000391
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [32/100]  |  Train Acc: 85.71%  |  Val Acc: 95.21%  |  LR: 0.000384
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [33/100]  |  Train Acc: 86.06%  |  Val Acc: 98.40%  |  LR: 0.000377
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (98.40%)]         <-
+Epoka [34/100]  |  Train Acc: 87.20%  |  Val Acc: 94.52%  |  LR: 0.000371
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [35/100]  |  Train Acc: 87.37%  |  Val Acc: 97.03%  |  LR: 0.000364
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [36/100]  |  Train Acc: 87.94%  |  Val Acc: 98.17%  |  LR: 0.000357
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [37/100]  |  Train Acc: 87.31%  |  Val Acc: 98.40%  |  LR: 0.000349
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [38/100]  |  Train Acc: 86.34%  |  Val Acc: 98.40%  |  LR: 0.000342
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [39/100]  |  Train Acc: 87.60%  |  Val Acc: 96.35%  |  LR: 0.000335
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [40/100]  |  Train Acc: 87.83%  |  Val Acc: 97.95%  |  LR: 0.000327
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [41/100]  |  Train Acc: 90.06%  |  Val Acc: 98.63%  |  LR: 0.000320
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (98.63%)]         <-
+Epoka [42/100]  |  Train Acc: 89.37%  |  Val Acc: 98.63%  |  LR: 0.000312
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [43/100]  |  Train Acc: 89.94%  |  Val Acc: 96.80%  |  LR: 0.000305
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [44/100]  |  Train Acc: 89.20%  |  Val Acc: 97.72%  |  LR: 0.000297
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [45/100]  |  Train Acc: 90.11%  |  Val Acc: 97.95%  |  LR: 0.000289
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [46/100]  |  Train Acc: 89.94%  |  Val Acc: 98.86%  |  LR: 0.000282
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (98.86%)]         <-
+Epoka [47/100]  |  Train Acc: 90.46%  |  Val Acc: 98.17%  |  LR: 0.000274
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [48/100]  |  Train Acc: 90.23%  |  Val Acc: 97.72%  |  LR: 0.000266
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [49/100]  |  Train Acc: 90.97%  |  Val Acc: 97.72%  |  LR: 0.000258
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [50/100]  |  Train Acc: 90.69%  |  Val Acc: 98.63%  |  LR: 0.000250
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [51/100]  |  Train Acc: 91.49%  |  Val Acc: 97.03%  |  LR: 0.000242
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [52/100]  |  Train Acc: 91.14%  |  Val Acc: 97.49%  |  LR: 0.000235
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [53/100]  |  Train Acc: 90.34%  |  Val Acc: 98.63%  |  LR: 0.000227
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [54/100]  |  Train Acc: 91.77%  |  Val Acc: 97.49%  |  LR: 0.000219
+!!!     [Brak poprawy: 8/20]    !!!
+Epoka [55/100]  |  Train Acc: 91.49%  |  Val Acc: 98.86%  |  LR: 0.000211
+!!!     [Brak poprawy: 9/20]    !!!
+Epoka [56/100]  |  Train Acc: 91.94%  |  Val Acc: 97.49%  |  LR: 0.000203
+!!!     [Brak poprawy: 10/20]   !!!
+Epoka [57/100]  |  Train Acc: 91.77%  |  Val Acc: 98.40%  |  LR: 0.000196
+!!!     [Brak poprawy: 11/20]   !!!
+Epoka [58/100]  |  Train Acc: 92.00%  |  Val Acc: 98.86%  |  LR: 0.000188
+!!!     [Brak poprawy: 12/20]   !!!
+Epoka [59/100]  |  Train Acc: 92.86%  |  Val Acc: 98.63%  |  LR: 0.000181
+!!!     [Brak poprawy: 13/20]   !!!
+Epoka [60/100]  |  Train Acc: 93.71%  |  Val Acc: 97.95%  |  LR: 0.000173
+!!!     [Brak poprawy: 14/20]   !!!
+Epoka [61/100]  |  Train Acc: 91.20%  |  Val Acc: 98.17%  |  LR: 0.000166
+!!!     [Brak poprawy: 15/20]   !!!
+Epoka [62/100]  |  Train Acc: 92.46%  |  Val Acc: 99.09%  |  LR: 0.000158
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (99.09%)]         <-
+Epoka [63/100]  |  Train Acc: 93.66%  |  Val Acc: 98.86%  |  LR: 0.000151
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [64/100]  |  Train Acc: 93.37%  |  Val Acc: 99.09%  |  LR: 0.000144
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [65/100]  |  Train Acc: 91.89%  |  Val Acc: 99.09%  |  LR: 0.000137
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [66/100]  |  Train Acc: 93.03%  |  Val Acc: 99.32%  |  LR: 0.000130
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (99.32%)]         <-
+Epoka [67/100]  |  Train Acc: 92.80%  |  Val Acc: 99.09%  |  LR: 0.000123
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [68/100]  |  Train Acc: 92.69%  |  Val Acc: 99.09%  |  LR: 0.000116
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [69/100]  |  Train Acc: 92.51%  |  Val Acc: 99.32%  |  LR: 0.000110
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [70/100]  |  Train Acc: 93.09%  |  Val Acc: 99.32%  |  LR: 0.000103
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [71/100]  |  Train Acc: 92.97%  |  Val Acc: 99.32%  |  LR: 0.000097
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [72/100]  |  Train Acc: 93.37%  |  Val Acc: 99.32%  |  LR: 0.000091
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [73/100]  |  Train Acc: 92.80%  |  Val Acc: 99.32%  |  LR: 0.000085
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [74/100]  |  Train Acc: 94.11%  |  Val Acc: 99.32%  |  LR: 0.000079
+!!!     [Brak poprawy: 8/20]    !!!
+Epoka [75/100]  |  Train Acc: 93.89%  |  Val Acc: 99.09%  |  LR: 0.000074
+!!!     [Brak poprawy: 9/20]    !!!
+Epoka [76/100]  |  Train Acc: 93.20%  |  Val Acc: 99.32%  |  LR: 0.000068
+!!!     [Brak poprawy: 10/20]   !!!
+Epoka [77/100]  |  Train Acc: 93.77%  |  Val Acc: 99.32%  |  LR: 0.000063
+!!!     [Brak poprawy: 11/20]   !!!
+Epoka [78/100]  |  Train Acc: 94.40%  |  Val Acc: 98.86%  |  LR: 0.000058
+!!!     [Brak poprawy: 12/20]   !!!
+Epoka [79/100]  |  Train Acc: 93.26%  |  Val Acc: 99.32%  |  LR: 0.000053
+!!!     [Brak poprawy: 13/20]   !!!
+Epoka [80/100]  |  Train Acc: 94.74%  |  Val Acc: 99.32%  |  LR: 0.000048
+!!!     [Brak poprawy: 14/20]   !!!
+Epoka [81/100]  |  Train Acc: 94.00%  |  Val Acc: 99.32%  |  LR: 0.000044
+!!!     [Brak poprawy: 15/20]   !!!
+Epoka [82/100]  |  Train Acc: 94.46%  |  Val Acc: 99.32%  |  LR: 0.000039
+!!!     [Brak poprawy: 16/20]   !!!
+Epoka [83/100]  |  Train Acc: 93.66%  |  Val Acc: 99.32%  |  LR: 0.000035
+!!!     [Brak poprawy: 17/20]   !!!
+Epoka [84/100]  |  Train Acc: 94.40%  |  Val Acc: 99.32%  |  LR: 0.000031
+!!!     [Brak poprawy: 18/20]   !!!
+Epoka [85/100]  |  Train Acc: 94.17%  |  Val Acc: 99.32%  |  LR: 0.000028
+!!!     [Brak poprawy: 19/20]   !!!
+Epoka [86/100]  |  Train Acc: 94.51%  |  Val Acc: 99.32%  |  LR: 0.000024
+!!!     [Brak poprawy: 20/20]   !!!
+!!! Early Stopping: Model przestał się poprawiać po 86 epokach. !!!
+Rysowanie wykresów...
+
+--- Start Treningu | Batch 64 LR 0.0005 Kernel 7 Filters 32 Dropout 0.2 ---
+Epoka [1/100]   |  Train Acc: 36.57%  |  Val Acc: 40.87%  |  LR: 0.000500
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (40.87%)]         <-
+Epoka [2/100]   |  Train Acc: 40.57%  |  Val Acc: 54.57%  |  LR: 0.000500
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (54.57%)]         <-
+Epoka [3/100]   |  Train Acc: 42.00%  |  Val Acc: 55.02%  |  LR: 0.000499
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (55.02%)]         <-
+Epoka [4/100]   |  Train Acc: 42.00%  |  Val Acc: 63.47%  |  LR: 0.000498
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (63.47%)]         <-
+Epoka [5/100]   |  Train Acc: 45.94%  |  Val Acc: 68.95%  |  LR: 0.000497
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (68.95%)]         <-
+Epoka [6/100]   |  Train Acc: 49.54%  |  Val Acc: 71.69%  |  LR: 0.000496
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (71.69%)]         <-
+Epoka [7/100]   |  Train Acc: 48.69%  |  Val Acc: 68.49%  |  LR: 0.000494
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [8/100]   |  Train Acc: 51.54%  |  Val Acc: 68.04%  |  LR: 0.000492
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [9/100]   |  Train Acc: 56.40%  |  Val Acc: 47.49%  |  LR: 0.000490
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [10/100]  |  Train Acc: 59.03%  |  Val Acc: 76.48%  |  LR: 0.000488
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (76.48%)]         <-
+Epoka [11/100]  |  Train Acc: 61.26%  |  Val Acc: 88.58%  |  LR: 0.000485
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (88.58%)]         <-
+Epoka [12/100]  |  Train Acc: 68.29%  |  Val Acc: 85.62%  |  LR: 0.000482
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [13/100]  |  Train Acc: 67.49%  |  Val Acc: 91.55%  |  LR: 0.000479
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (91.55%)]         <-
+Epoka [14/100]  |  Train Acc: 68.91%  |  Val Acc: 74.43%  |  LR: 0.000476
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [15/100]  |  Train Acc: 70.74%  |  Val Acc: 77.17%  |  LR: 0.000473
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [16/100]  |  Train Acc: 71.77%  |  Val Acc: 87.21%  |  LR: 0.000469
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [17/100]  |  Train Acc: 75.31%  |  Val Acc: 80.82%  |  LR: 0.000465
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [18/100]  |  Train Acc: 75.31%  |  Val Acc: 90.87%  |  LR: 0.000461
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [19/100]  |  Train Acc: 77.89%  |  Val Acc: 91.10%  |  LR: 0.000457
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [20/100]  |  Train Acc: 79.03%  |  Val Acc: 91.55%  |  LR: 0.000452
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [21/100]  |  Train Acc: 80.63%  |  Val Acc: 86.76%  |  LR: 0.000448
+!!!     [Brak poprawy: 8/20]    !!!
+Epoka [22/100]  |  Train Acc: 80.69%  |  Val Acc: 94.52%  |  LR: 0.000443
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (94.52%)]         <-
+Epoka [23/100]  |  Train Acc: 82.40%  |  Val Acc: 93.84%  |  LR: 0.000438
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [24/100]  |  Train Acc: 80.86%  |  Val Acc: 95.21%  |  LR: 0.000432
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (95.21%)]         <-
+Epoka [25/100]  |  Train Acc: 82.23%  |  Val Acc: 90.18%  |  LR: 0.000427
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [26/100]  |  Train Acc: 83.71%  |  Val Acc: 88.36%  |  LR: 0.000421
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [27/100]  |  Train Acc: 84.06%  |  Val Acc: 97.03%  |  LR: 0.000415
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (97.03%)]         <-
+Epoka [28/100]  |  Train Acc: 84.06%  |  Val Acc: 95.89%  |  LR: 0.000409
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [29/100]  |  Train Acc: 85.71%  |  Val Acc: 96.58%  |  LR: 0.000403
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [30/100]  |  Train Acc: 87.43%  |  Val Acc: 93.38%  |  LR: 0.000397
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [31/100]  |  Train Acc: 85.89%  |  Val Acc: 95.21%  |  LR: 0.000391
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [32/100]  |  Train Acc: 86.63%  |  Val Acc: 96.12%  |  LR: 0.000384
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [33/100]  |  Train Acc: 87.66%  |  Val Acc: 91.55%  |  LR: 0.000377
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [34/100]  |  Train Acc: 86.17%  |  Val Acc: 95.21%  |  LR: 0.000371
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [35/100]  |  Train Acc: 88.17%  |  Val Acc: 95.43%  |  LR: 0.000364
+!!!     [Brak poprawy: 8/20]    !!!
+Epoka [36/100]  |  Train Acc: 89.31%  |  Val Acc: 97.03%  |  LR: 0.000357
+!!!     [Brak poprawy: 9/20]    !!!
+Epoka [37/100]  |  Train Acc: 87.89%  |  Val Acc: 97.95%  |  LR: 0.000349
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (97.95%)]         <-
+Epoka [38/100]  |  Train Acc: 88.06%  |  Val Acc: 96.35%  |  LR: 0.000342
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [39/100]  |  Train Acc: 89.03%  |  Val Acc: 95.89%  |  LR: 0.000335
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [40/100]  |  Train Acc: 89.66%  |  Val Acc: 96.80%  |  LR: 0.000327
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [41/100]  |  Train Acc: 89.66%  |  Val Acc: 97.03%  |  LR: 0.000320
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [42/100]  |  Train Acc: 88.74%  |  Val Acc: 98.17%  |  LR: 0.000312
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (98.17%)]         <-
+Epoka [43/100]  |  Train Acc: 89.43%  |  Val Acc: 95.43%  |  LR: 0.000305
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [44/100]  |  Train Acc: 91.31%  |  Val Acc: 98.40%  |  LR: 0.000297
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (98.40%)]         <-
+Epoka [45/100]  |  Train Acc: 89.49%  |  Val Acc: 96.80%  |  LR: 0.000289
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [46/100]  |  Train Acc: 89.94%  |  Val Acc: 98.17%  |  LR: 0.000282
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [47/100]  |  Train Acc: 90.69%  |  Val Acc: 97.49%  |  LR: 0.000274
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [48/100]  |  Train Acc: 90.80%  |  Val Acc: 97.95%  |  LR: 0.000266
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [49/100]  |  Train Acc: 92.11%  |  Val Acc: 97.49%  |  LR: 0.000258
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [50/100]  |  Train Acc: 89.54%  |  Val Acc: 97.72%  |  LR: 0.000250
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [51/100]  |  Train Acc: 90.69%  |  Val Acc: 97.49%  |  LR: 0.000242
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [52/100]  |  Train Acc: 91.26%  |  Val Acc: 97.49%  |  LR: 0.000235
+!!!     [Brak poprawy: 8/20]    !!!
+Epoka [53/100]  |  Train Acc: 92.00%  |  Val Acc: 97.26%  |  LR: 0.000227
+!!!     [Brak poprawy: 9/20]    !!!
+Epoka [54/100]  |  Train Acc: 91.77%  |  Val Acc: 98.17%  |  LR: 0.000219
+!!!     [Brak poprawy: 10/20]   !!!
+Epoka [55/100]  |  Train Acc: 92.06%  |  Val Acc: 97.03%  |  LR: 0.000211
+!!!     [Brak poprawy: 11/20]   !!!
+Epoka [56/100]  |  Train Acc: 92.17%  |  Val Acc: 97.49%  |  LR: 0.000203
+!!!     [Brak poprawy: 12/20]   !!!
+Epoka [57/100]  |  Train Acc: 93.77%  |  Val Acc: 98.86%  |  LR: 0.000196
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (98.86%)]         <-
+Epoka [58/100]  |  Train Acc: 91.66%  |  Val Acc: 97.26%  |  LR: 0.000188
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [59/100]  |  Train Acc: 91.77%  |  Val Acc: 98.17%  |  LR: 0.000181
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [60/100]  |  Train Acc: 93.37%  |  Val Acc: 97.72%  |  LR: 0.000173
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [61/100]  |  Train Acc: 92.51%  |  Val Acc: 97.26%  |  LR: 0.000166
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [62/100]  |  Train Acc: 91.31%  |  Val Acc: 97.95%  |  LR: 0.000158
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [63/100]  |  Train Acc: 92.69%  |  Val Acc: 97.72%  |  LR: 0.000151
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [64/100]  |  Train Acc: 92.63%  |  Val Acc: 97.72%  |  LR: 0.000144
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [65/100]  |  Train Acc: 92.51%  |  Val Acc: 98.40%  |  LR: 0.000137
+!!!     [Brak poprawy: 8/20]    !!!
+Epoka [66/100]  |  Train Acc: 92.29%  |  Val Acc: 97.95%  |  LR: 0.000130
+!!!     [Brak poprawy: 9/20]    !!!
+Epoka [67/100]  |  Train Acc: 92.69%  |  Val Acc: 97.95%  |  LR: 0.000123
+!!!     [Brak poprawy: 10/20]   !!!
+Epoka [68/100]  |  Train Acc: 93.49%  |  Val Acc: 98.17%  |  LR: 0.000116
+!!!     [Brak poprawy: 11/20]   !!!
+Epoka [69/100]  |  Train Acc: 92.74%  |  Val Acc: 98.40%  |  LR: 0.000110
+!!!     [Brak poprawy: 12/20]   !!!
+Epoka [70/100]  |  Train Acc: 93.03%  |  Val Acc: 97.95%  |  LR: 0.000103
+!!!     [Brak poprawy: 13/20]   !!!
+Epoka [71/100]  |  Train Acc: 93.89%  |  Val Acc: 98.86%  |  LR: 0.000097
+!!!     [Brak poprawy: 14/20]   !!!
+Epoka [72/100]  |  Train Acc: 93.66%  |  Val Acc: 98.40%  |  LR: 0.000091
+!!!     [Brak poprawy: 15/20]   !!!
+Epoka [73/100]  |  Train Acc: 93.71%  |  Val Acc: 98.17%  |  LR: 0.000085
+!!!     [Brak poprawy: 16/20]   !!!
+Epoka [74/100]  |  Train Acc: 93.60%  |  Val Acc: 98.17%  |  LR: 0.000079
+!!!     [Brak poprawy: 17/20]   !!!
+Epoka [75/100]  |  Train Acc: 93.71%  |  Val Acc: 98.17%  |  LR: 0.000074
+!!!     [Brak poprawy: 18/20]   !!!
+Epoka [76/100]  |  Train Acc: 93.83%  |  Val Acc: 98.17%  |  LR: 0.000068
+!!!     [Brak poprawy: 19/20]   !!!
+Epoka [77/100]  |  Train Acc: 94.40%  |  Val Acc: 98.17%  |  LR: 0.000063
+!!!     [Brak poprawy: 20/20]   !!!
+!!! Early Stopping: Model przestał się poprawiać po 77 epokach. !!!
+Rysowanie wykresów...
+
+--- Start Treningu | Batch 64 LR 0.0005 Kernel 7 Filters 32 Dropout 0.2 ---
+Epoka [1/100]   |  Train Acc: 37.49%  |  Val Acc: 56.16%  |  LR: 0.000500
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (56.16%)]         <-
+Epoka [2/100]   |  Train Acc: 40.74%  |  Val Acc: 53.88%  |  LR: 0.000500
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [3/100]   |  Train Acc: 40.11%  |  Val Acc: 51.37%  |  LR: 0.000499
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [4/100]   |  Train Acc: 43.49%  |  Val Acc: 50.23%  |  LR: 0.000498
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [5/100]   |  Train Acc: 43.49%  |  Val Acc: 43.84%  |  LR: 0.000497
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [6/100]   |  Train Acc: 41.66%  |  Val Acc: 53.65%  |  LR: 0.000496
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [7/100]   |  Train Acc: 47.26%  |  Val Acc: 78.31%  |  LR: 0.000494
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (78.31%)]         <-
+Epoka [8/100]   |  Train Acc: 46.40%  |  Val Acc: 74.20%  |  LR: 0.000492
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [9/100]   |  Train Acc: 50.91%  |  Val Acc: 67.35%  |  LR: 0.000490
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [10/100]  |  Train Acc: 51.37%  |  Val Acc: 75.11%  |  LR: 0.000488
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [11/100]  |  Train Acc: 54.17%  |  Val Acc: 84.47%  |  LR: 0.000485
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (84.47%)]         <-
+Epoka [12/100]  |  Train Acc: 56.91%  |  Val Acc: 86.53%  |  LR: 0.000482
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (86.53%)]         <-
+Epoka [13/100]  |  Train Acc: 57.09%  |  Val Acc: 79.00%  |  LR: 0.000479
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [14/100]  |  Train Acc: 60.63%  |  Val Acc: 62.56%  |  LR: 0.000476
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [15/100]  |  Train Acc: 64.80%  |  Val Acc: 85.84%  |  LR: 0.000473
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [16/100]  |  Train Acc: 65.54%  |  Val Acc: 76.94%  |  LR: 0.000469
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [17/100]  |  Train Acc: 70.34%  |  Val Acc: 74.20%  |  LR: 0.000465
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [18/100]  |  Train Acc: 68.97%  |  Val Acc: 88.81%  |  LR: 0.000461
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (88.81%)]         <-
+Epoka [19/100]  |  Train Acc: 71.66%  |  Val Acc: 88.81%  |  LR: 0.000457
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [20/100]  |  Train Acc: 73.14%  |  Val Acc: 86.99%  |  LR: 0.000452
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [21/100]  |  Train Acc: 74.46%  |  Val Acc: 89.04%  |  LR: 0.000448
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (89.04%)]         <-
+Epoka [22/100]  |  Train Acc: 77.66%  |  Val Acc: 94.98%  |  LR: 0.000443
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (94.98%)]         <-
+Epoka [23/100]  |  Train Acc: 77.71%  |  Val Acc: 88.13%  |  LR: 0.000438
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [24/100]  |  Train Acc: 76.51%  |  Val Acc: 93.38%  |  LR: 0.000432
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [25/100]  |  Train Acc: 80.46%  |  Val Acc: 91.78%  |  LR: 0.000427
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [26/100]  |  Train Acc: 79.43%  |  Val Acc: 92.92%  |  LR: 0.000421
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [27/100]  |  Train Acc: 81.03%  |  Val Acc: 94.52%  |  LR: 0.000415
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [28/100]  |  Train Acc: 80.97%  |  Val Acc: 94.98%  |  LR: 0.000409
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [29/100]  |  Train Acc: 82.29%  |  Val Acc: 94.75%  |  LR: 0.000403
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [30/100]  |  Train Acc: 83.03%  |  Val Acc: 93.61%  |  LR: 0.000397
+!!!     [Brak poprawy: 8/20]    !!!
+Epoka [31/100]  |  Train Acc: 85.83%  |  Val Acc: 94.52%  |  LR: 0.000391
+!!!     [Brak poprawy: 9/20]    !!!
+Epoka [32/100]  |  Train Acc: 84.74%  |  Val Acc: 96.58%  |  LR: 0.000384
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (96.58%)]         <-
+Epoka [33/100]  |  Train Acc: 85.26%  |  Val Acc: 93.38%  |  LR: 0.000377
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [34/100]  |  Train Acc: 84.74%  |  Val Acc: 95.43%  |  LR: 0.000371
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [35/100]  |  Train Acc: 85.03%  |  Val Acc: 97.03%  |  LR: 0.000364
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (97.03%)]         <-
+Epoka [36/100]  |  Train Acc: 87.77%  |  Val Acc: 96.35%  |  LR: 0.000357
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [37/100]  |  Train Acc: 86.80%  |  Val Acc: 95.43%  |  LR: 0.000349
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [38/100]  |  Train Acc: 88.86%  |  Val Acc: 97.26%  |  LR: 0.000342
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (97.26%)]         <-
+Epoka [39/100]  |  Train Acc: 87.66%  |  Val Acc: 96.35%  |  LR: 0.000335
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [40/100]  |  Train Acc: 87.89%  |  Val Acc: 97.72%  |  LR: 0.000327
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (97.72%)]         <-
+Epoka [41/100]  |  Train Acc: 88.97%  |  Val Acc: 96.12%  |  LR: 0.000320
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [42/100]  |  Train Acc: 88.11%  |  Val Acc: 97.72%  |  LR: 0.000312
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [43/100]  |  Train Acc: 88.69%  |  Val Acc: 96.35%  |  LR: 0.000305
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [44/100]  |  Train Acc: 91.03%  |  Val Acc: 97.03%  |  LR: 0.000297
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [45/100]  |  Train Acc: 89.09%  |  Val Acc: 97.49%  |  LR: 0.000289
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [46/100]  |  Train Acc: 88.34%  |  Val Acc: 97.26%  |  LR: 0.000282
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [47/100]  |  Train Acc: 89.14%  |  Val Acc: 97.72%  |  LR: 0.000274
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [48/100]  |  Train Acc: 90.00%  |  Val Acc: 98.40%  |  LR: 0.000266
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (98.40%)]         <-
+Epoka [49/100]  |  Train Acc: 90.80%  |  Val Acc: 97.26%  |  LR: 0.000258
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [50/100]  |  Train Acc: 89.20%  |  Val Acc: 98.17%  |  LR: 0.000250
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [51/100]  |  Train Acc: 90.63%  |  Val Acc: 99.09%  |  LR: 0.000242
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (99.09%)]         <-
+Epoka [52/100]  |  Train Acc: 90.69%  |  Val Acc: 97.26%  |  LR: 0.000235
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [53/100]  |  Train Acc: 90.17%  |  Val Acc: 98.63%  |  LR: 0.000227
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [54/100]  |  Train Acc: 90.06%  |  Val Acc: 97.95%  |  LR: 0.000219
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [55/100]  |  Train Acc: 91.71%  |  Val Acc: 98.86%  |  LR: 0.000211
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [56/100]  |  Train Acc: 92.06%  |  Val Acc: 98.86%  |  LR: 0.000203
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [57/100]  |  Train Acc: 90.46%  |  Val Acc: 98.86%  |  LR: 0.000196
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [58/100]  |  Train Acc: 90.51%  |  Val Acc: 99.09%  |  LR: 0.000188
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [59/100]  |  Train Acc: 91.60%  |  Val Acc: 98.63%  |  LR: 0.000181
+!!!     [Brak poprawy: 8/20]    !!!
+Epoka [60/100]  |  Train Acc: 91.43%  |  Val Acc: 98.17%  |  LR: 0.000173
+!!!     [Brak poprawy: 9/20]    !!!
+Epoka [61/100]  |  Train Acc: 91.20%  |  Val Acc: 98.17%  |  LR: 0.000166
+!!!     [Brak poprawy: 10/20]   !!!
+Epoka [62/100]  |  Train Acc: 92.00%  |  Val Acc: 98.40%  |  LR: 0.000158
+!!!     [Brak poprawy: 11/20]   !!!
+Epoka [63/100]  |  Train Acc: 91.77%  |  Val Acc: 98.40%  |  LR: 0.000151
+!!!     [Brak poprawy: 12/20]   !!!
+Epoka [64/100]  |  Train Acc: 92.00%  |  Val Acc: 97.95%  |  LR: 0.000144
+!!!     [Brak poprawy: 13/20]   !!!
+Epoka [65/100]  |  Train Acc: 91.54%  |  Val Acc: 98.40%  |  LR: 0.000137
+!!!     [Brak poprawy: 14/20]   !!!
+Epoka [66/100]  |  Train Acc: 91.83%  |  Val Acc: 99.09%  |  LR: 0.000130
+!!!     [Brak poprawy: 15/20]   !!!
+Epoka [67/100]  |  Train Acc: 92.11%  |  Val Acc: 99.32%  |  LR: 0.000123
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (99.32%)]         <-
+Epoka [68/100]  |  Train Acc: 92.23%  |  Val Acc: 97.72%  |  LR: 0.000116
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [69/100]  |  Train Acc: 92.46%  |  Val Acc: 98.17%  |  LR: 0.000110
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [70/100]  |  Train Acc: 92.91%  |  Val Acc: 98.63%  |  LR: 0.000103
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [71/100]  |  Train Acc: 92.80%  |  Val Acc: 97.95%  |  LR: 0.000097
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [72/100]  |  Train Acc: 92.74%  |  Val Acc: 98.17%  |  LR: 0.000091
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [73/100]  |  Train Acc: 91.94%  |  Val Acc: 99.09%  |  LR: 0.000085
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [74/100]  |  Train Acc: 93.14%  |  Val Acc: 97.95%  |  LR: 0.000079
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [75/100]  |  Train Acc: 92.00%  |  Val Acc: 98.86%  |  LR: 0.000074
+!!!     [Brak poprawy: 8/20]    !!!
+Epoka [76/100]  |  Train Acc: 93.49%  |  Val Acc: 98.63%  |  LR: 0.000068
+!!!     [Brak poprawy: 9/20]    !!!
+Epoka [77/100]  |  Train Acc: 93.37%  |  Val Acc: 99.09%  |  LR: 0.000063
+!!!     [Brak poprawy: 10/20]   !!!
+Epoka [78/100]  |  Train Acc: 94.00%  |  Val Acc: 98.86%  |  LR: 0.000058
+!!!     [Brak poprawy: 11/20]   !!!
+Epoka [79/100]  |  Train Acc: 94.00%  |  Val Acc: 98.86%  |  LR: 0.000053
+!!!     [Brak poprawy: 12/20]   !!!
+Epoka [80/100]  |  Train Acc: 93.14%  |  Val Acc: 99.09%  |  LR: 0.000048
+!!!     [Brak poprawy: 13/20]   !!!
+Epoka [81/100]  |  Train Acc: 92.80%  |  Val Acc: 98.40%  |  LR: 0.000044
+!!!     [Brak poprawy: 14/20]   !!!
+Epoka [82/100]  |  Train Acc: 93.37%  |  Val Acc: 98.63%  |  LR: 0.000039
+!!!     [Brak poprawy: 15/20]   !!!
+Epoka [83/100]  |  Train Acc: 93.71%  |  Val Acc: 98.17%  |  LR: 0.000035
+!!!     [Brak poprawy: 16/20]   !!!
+Epoka [84/100]  |  Train Acc: 93.60%  |  Val Acc: 98.17%  |  LR: 0.000031
+!!!     [Brak poprawy: 17/20]   !!!
+Epoka [85/100]  |  Train Acc: 92.69%  |  Val Acc: 98.40%  |  LR: 0.000028
+!!!     [Brak poprawy: 18/20]   !!!
+Epoka [86/100]  |  Train Acc: 94.00%  |  Val Acc: 98.17%  |  LR: 0.000024
+!!!     [Brak poprawy: 19/20]   !!!
+Epoka [87/100]  |  Train Acc: 92.91%  |  Val Acc: 98.40%  |  LR: 0.000021
+!!!     [Brak poprawy: 20/20]   !!!
+!!! Early Stopping: Model przestał się poprawiać po 87 epokach. !!!
+Rysowanie wykresów...
+
+--- Start Treningu | Batch 64 LR 0.0005 Kernel 7 Filters 32 Dropout 0.2 ---
+Epoka [1/100]   |  Train Acc: 35.71%  |  Val Acc: 52.28%  |  LR: 0.000500
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (52.28%)]         <-
+Epoka [2/100]   |  Train Acc: 36.23%  |  Val Acc: 33.11%  |  LR: 0.000500
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [3/100]   |  Train Acc: 35.43%  |  Val Acc: 35.84%  |  LR: 0.000499
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [4/100]   |  Train Acc: 37.03%  |  Val Acc: 53.65%  |  LR: 0.000498
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (53.65%)]         <-
+Epoka [5/100]   |  Train Acc: 38.74%  |  Val Acc: 52.74%  |  LR: 0.000497
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [6/100]   |  Train Acc: 40.46%  |  Val Acc: 57.31%  |  LR: 0.000496
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (57.31%)]         <-
+Epoka [7/100]   |  Train Acc: 39.20%  |  Val Acc: 49.77%  |  LR: 0.000494
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [8/100]   |  Train Acc: 43.54%  |  Val Acc: 48.17%  |  LR: 0.000492
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [9/100]   |  Train Acc: 40.40%  |  Val Acc: 54.34%  |  LR: 0.000490
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [10/100]  |  Train Acc: 43.37%  |  Val Acc: 54.11%  |  LR: 0.000488
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [11/100]  |  Train Acc: 42.74%  |  Val Acc: 72.60%  |  LR: 0.000485
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (72.60%)]         <-
+Epoka [12/100]  |  Train Acc: 44.80%  |  Val Acc: 60.50%  |  LR: 0.000482
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [13/100]  |  Train Acc: 43.54%  |  Val Acc: 57.08%  |  LR: 0.000479
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [14/100]  |  Train Acc: 43.54%  |  Val Acc: 52.05%  |  LR: 0.000476
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [15/100]  |  Train Acc: 43.49%  |  Val Acc: 55.02%  |  LR: 0.000473
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [16/100]  |  Train Acc: 48.00%  |  Val Acc: 63.01%  |  LR: 0.000469
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [17/100]  |  Train Acc: 44.51%  |  Val Acc: 63.24%  |  LR: 0.000465
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [18/100]  |  Train Acc: 47.43%  |  Val Acc: 58.90%  |  LR: 0.000461
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [19/100]  |  Train Acc: 48.00%  |  Val Acc: 56.39%  |  LR: 0.000457
+!!!     [Brak poprawy: 8/20]    !!!
+Epoka [20/100]  |  Train Acc: 48.97%  |  Val Acc: 67.81%  |  LR: 0.000452
+!!!     [Brak poprawy: 9/20]    !!!
+Epoka [21/100]  |  Train Acc: 49.20%  |  Val Acc: 60.05%  |  LR: 0.000448
+!!!     [Brak poprawy: 10/20]   !!!
+Epoka [22/100]  |  Train Acc: 49.26%  |  Val Acc: 61.19%  |  LR: 0.000443
+!!!     [Brak poprawy: 11/20]   !!!
+Epoka [23/100]  |  Train Acc: 52.51%  |  Val Acc: 68.04%  |  LR: 0.000438
+!!!     [Brak poprawy: 12/20]   !!!
+Epoka [24/100]  |  Train Acc: 52.86%  |  Val Acc: 70.32%  |  LR: 0.000432
+!!!     [Brak poprawy: 13/20]   !!!
+Epoka [25/100]  |  Train Acc: 54.29%  |  Val Acc: 70.55%  |  LR: 0.000427
+!!!     [Brak poprawy: 14/20]   !!!
+Epoka [26/100]  |  Train Acc: 58.29%  |  Val Acc: 73.97%  |  LR: 0.000421
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (73.97%)]         <-
+Epoka [27/100]  |  Train Acc: 56.46%  |  Val Acc: 77.63%  |  LR: 0.000415
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (77.63%)]         <-
+Epoka [28/100]  |  Train Acc: 57.83%  |  Val Acc: 67.58%  |  LR: 0.000409
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [29/100]  |  Train Acc: 60.00%  |  Val Acc: 80.59%  |  LR: 0.000403
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (80.59%)]         <-
+Epoka [30/100]  |  Train Acc: 60.11%  |  Val Acc: 85.16%  |  LR: 0.000397
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (85.16%)]         <-
+Epoka [31/100]  |  Train Acc: 62.17%  |  Val Acc: 91.10%  |  LR: 0.000391
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (91.10%)]         <-
+Epoka [32/100]  |  Train Acc: 64.86%  |  Val Acc: 86.53%  |  LR: 0.000384
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [33/100]  |  Train Acc: 69.31%  |  Val Acc: 87.44%  |  LR: 0.000377
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [34/100]  |  Train Acc: 66.69%  |  Val Acc: 89.73%  |  LR: 0.000371
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [35/100]  |  Train Acc: 71.03%  |  Val Acc: 94.98%  |  LR: 0.000364
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (94.98%)]         <-
+Epoka [36/100]  |  Train Acc: 73.83%  |  Val Acc: 94.06%  |  LR: 0.000357
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [37/100]  |  Train Acc: 75.09%  |  Val Acc: 95.89%  |  LR: 0.000349
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (95.89%)]         <-
+Epoka [38/100]  |  Train Acc: 74.57%  |  Val Acc: 95.43%  |  LR: 0.000342
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [39/100]  |  Train Acc: 77.49%  |  Val Acc: 94.98%  |  LR: 0.000335
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [40/100]  |  Train Acc: 77.49%  |  Val Acc: 96.12%  |  LR: 0.000327
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (96.12%)]         <-
+Epoka [41/100]  |  Train Acc: 80.34%  |  Val Acc: 96.58%  |  LR: 0.000320
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (96.58%)]         <-
+Epoka [42/100]  |  Train Acc: 81.54%  |  Val Acc: 95.43%  |  LR: 0.000312
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [43/100]  |  Train Acc: 79.94%  |  Val Acc: 95.66%  |  LR: 0.000305
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [44/100]  |  Train Acc: 82.63%  |  Val Acc: 95.43%  |  LR: 0.000297
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [45/100]  |  Train Acc: 82.06%  |  Val Acc: 96.80%  |  LR: 0.000289
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (96.80%)]         <-
+Epoka [46/100]  |  Train Acc: 83.14%  |  Val Acc: 96.58%  |  LR: 0.000282
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [47/100]  |  Train Acc: 82.69%  |  Val Acc: 96.35%  |  LR: 0.000274
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [48/100]  |  Train Acc: 84.34%  |  Val Acc: 97.03%  |  LR: 0.000266
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (97.03%)]         <-
+Epoka [49/100]  |  Train Acc: 84.57%  |  Val Acc: 97.72%  |  LR: 0.000258
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (97.72%)]         <-
+Epoka [50/100]  |  Train Acc: 85.89%  |  Val Acc: 96.80%  |  LR: 0.000250
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [51/100]  |  Train Acc: 84.57%  |  Val Acc: 95.43%  |  LR: 0.000242
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [52/100]  |  Train Acc: 86.40%  |  Val Acc: 97.72%  |  LR: 0.000235
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [53/100]  |  Train Acc: 87.43%  |  Val Acc: 97.72%  |  LR: 0.000227
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [54/100]  |  Train Acc: 86.97%  |  Val Acc: 97.26%  |  LR: 0.000219
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [55/100]  |  Train Acc: 85.60%  |  Val Acc: 98.40%  |  LR: 0.000211
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (98.40%)]         <-
+Epoka [56/100]  |  Train Acc: 87.49%  |  Val Acc: 97.72%  |  LR: 0.000203
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [57/100]  |  Train Acc: 88.69%  |  Val Acc: 97.49%  |  LR: 0.000196
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [58/100]  |  Train Acc: 87.31%  |  Val Acc: 98.86%  |  LR: 0.000188
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (98.86%)]         <-
+Epoka [59/100]  |  Train Acc: 88.40%  |  Val Acc: 97.72%  |  LR: 0.000181
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [60/100]  |  Train Acc: 88.40%  |  Val Acc: 98.17%  |  LR: 0.000173
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [61/100]  |  Train Acc: 90.40%  |  Val Acc: 98.17%  |  LR: 0.000166
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [62/100]  |  Train Acc: 88.86%  |  Val Acc: 98.17%  |  LR: 0.000158
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [63/100]  |  Train Acc: 88.46%  |  Val Acc: 97.49%  |  LR: 0.000151
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [64/100]  |  Train Acc: 89.03%  |  Val Acc: 98.63%  |  LR: 0.000144
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [65/100]  |  Train Acc: 89.71%  |  Val Acc: 98.86%  |  LR: 0.000137
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [66/100]  |  Train Acc: 88.97%  |  Val Acc: 99.09%  |  LR: 0.000130
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (99.09%)]         <-
+Epoka [67/100]  |  Train Acc: 89.20%  |  Val Acc: 99.09%  |  LR: 0.000123
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [68/100]  |  Train Acc: 90.74%  |  Val Acc: 98.17%  |  LR: 0.000116
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [69/100]  |  Train Acc: 90.86%  |  Val Acc: 99.32%  |  LR: 0.000110
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (99.32%)]         <-
+Epoka [70/100]  |  Train Acc: 90.23%  |  Val Acc: 99.54%  |  LR: 0.000103
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (99.54%)]         <-
+Epoka [71/100]  |  Train Acc: 89.94%  |  Val Acc: 98.40%  |  LR: 0.000097
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [72/100]  |  Train Acc: 90.57%  |  Val Acc: 98.86%  |  LR: 0.000091
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [73/100]  |  Train Acc: 91.43%  |  Val Acc: 98.86%  |  LR: 0.000085
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [74/100]  |  Train Acc: 90.06%  |  Val Acc: 99.09%  |  LR: 0.000079
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [75/100]  |  Train Acc: 90.74%  |  Val Acc: 99.09%  |  LR: 0.000074
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [76/100]  |  Train Acc: 91.31%  |  Val Acc: 99.09%  |  LR: 0.000068
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [77/100]  |  Train Acc: 92.11%  |  Val Acc: 99.09%  |  LR: 0.000063
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [78/100]  |  Train Acc: 91.60%  |  Val Acc: 99.09%  |  LR: 0.000058
+!!!     [Brak poprawy: 8/20]    !!!
+Epoka [79/100]  |  Train Acc: 91.71%  |  Val Acc: 99.32%  |  LR: 0.000053
+!!!     [Brak poprawy: 9/20]    !!!
+Epoka [80/100]  |  Train Acc: 91.60%  |  Val Acc: 99.09%  |  LR: 0.000048
+!!!     [Brak poprawy: 10/20]   !!!
+Epoka [81/100]  |  Train Acc: 92.46%  |  Val Acc: 99.54%  |  LR: 0.000044
+!!!     [Brak poprawy: 11/20]   !!!
+Epoka [82/100]  |  Train Acc: 91.54%  |  Val Acc: 99.32%  |  LR: 0.000039
+!!!     [Brak poprawy: 12/20]   !!!
+Epoka [83/100]  |  Train Acc: 91.83%  |  Val Acc: 99.54%  |  LR: 0.000035
+!!!     [Brak poprawy: 13/20]   !!!
+Epoka [84/100]  |  Train Acc: 92.06%  |  Val Acc: 99.32%  |  LR: 0.000031
+!!!     [Brak poprawy: 14/20]   !!!
+Epoka [85/100]  |  Train Acc: 92.40%  |  Val Acc: 99.09%  |  LR: 0.000028
+!!!     [Brak poprawy: 15/20]   !!!
+Epoka [86/100]  |  Train Acc: 91.09%  |  Val Acc: 99.32%  |  LR: 0.000024
+!!!     [Brak poprawy: 16/20]   !!!
+Epoka [87/100]  |  Train Acc: 92.57%  |  Val Acc: 99.32%  |  LR: 0.000021
+!!!     [Brak poprawy: 17/20]   !!!
+Epoka [88/100]  |  Train Acc: 93.31%  |  Val Acc: 99.32%  |  LR: 0.000018
+!!!     [Brak poprawy: 18/20]   !!!
+Epoka [89/100]  |  Train Acc: 92.40%  |  Val Acc: 99.32%  |  LR: 0.000015
+!!!     [Brak poprawy: 19/20]   !!!
+Epoka [90/100]  |  Train Acc: 92.29%  |  Val Acc: 99.32%  |  LR: 0.000013
+!!!     [Brak poprawy: 20/20]   !!!
+!!! Early Stopping: Model przestał się poprawiać po 90 epokach. !!!
+Rysowanie wykresów...
+
+--- Start Treningu | Batch 64 LR 0.0005 Kernel 7 Filters 32 Dropout 0.2 ---
+Epoka [1/100]   |  Train Acc: 35.89%  |  Val Acc: 51.14%  |  LR: 0.000500
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (51.14%)]         <-
+Epoka [2/100]   |  Train Acc: 41.03%  |  Val Acc: 39.95%  |  LR: 0.000500
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [3/100]   |  Train Acc: 43.43%  |  Val Acc: 61.42%  |  LR: 0.000499
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (61.42%)]         <-
+Epoka [4/100]   |  Train Acc: 41.60%  |  Val Acc: 55.48%  |  LR: 0.000498
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [5/100]   |  Train Acc: 43.20%  |  Val Acc: 32.88%  |  LR: 0.000497
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [6/100]   |  Train Acc: 46.46%  |  Val Acc: 46.58%  |  LR: 0.000496
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [7/100]   |  Train Acc: 45.89%  |  Val Acc: 51.83%  |  LR: 0.000494
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [8/100]   |  Train Acc: 47.71%  |  Val Acc: 73.74%  |  LR: 0.000492
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (73.74%)]         <-
+Epoka [9/100]   |  Train Acc: 51.54%  |  Val Acc: 80.59%  |  LR: 0.000490
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (80.59%)]         <-
+Epoka [10/100]  |  Train Acc: 53.43%  |  Val Acc: 52.28%  |  LR: 0.000488
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [11/100]  |  Train Acc: 54.91%  |  Val Acc: 76.71%  |  LR: 0.000485
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [12/100]  |  Train Acc: 54.91%  |  Val Acc: 77.17%  |  LR: 0.000482
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [13/100]  |  Train Acc: 57.37%  |  Val Acc: 82.19%  |  LR: 0.000479
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (82.19%)]         <-
+Epoka [14/100]  |  Train Acc: 58.57%  |  Val Acc: 78.31%  |  LR: 0.000476
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [15/100]  |  Train Acc: 62.23%  |  Val Acc: 87.90%  |  LR: 0.000473
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (87.90%)]         <-
+Epoka [16/100]  |  Train Acc: 65.66%  |  Val Acc: 83.56%  |  LR: 0.000469
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [17/100]  |  Train Acc: 68.91%  |  Val Acc: 82.42%  |  LR: 0.000465
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [18/100]  |  Train Acc: 69.83%  |  Val Acc: 86.30%  |  LR: 0.000461
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [19/100]  |  Train Acc: 71.37%  |  Val Acc: 83.56%  |  LR: 0.000457
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [20/100]  |  Train Acc: 74.23%  |  Val Acc: 80.14%  |  LR: 0.000452
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [21/100]  |  Train Acc: 75.89%  |  Val Acc: 85.84%  |  LR: 0.000448
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [22/100]  |  Train Acc: 78.91%  |  Val Acc: 93.38%  |  LR: 0.000443
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (93.38%)]         <-
+Epoka [23/100]  |  Train Acc: 78.69%  |  Val Acc: 95.21%  |  LR: 0.000438
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (95.21%)]         <-
+Epoka [24/100]  |  Train Acc: 80.63%  |  Val Acc: 84.93%  |  LR: 0.000432
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [25/100]  |  Train Acc: 79.31%  |  Val Acc: 91.32%  |  LR: 0.000427
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [26/100]  |  Train Acc: 82.23%  |  Val Acc: 90.87%  |  LR: 0.000421
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [27/100]  |  Train Acc: 84.17%  |  Val Acc: 89.04%  |  LR: 0.000415
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [28/100]  |  Train Acc: 83.77%  |  Val Acc: 87.90%  |  LR: 0.000409
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [29/100]  |  Train Acc: 84.11%  |  Val Acc: 93.61%  |  LR: 0.000403
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [30/100]  |  Train Acc: 84.63%  |  Val Acc: 93.38%  |  LR: 0.000397
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [31/100]  |  Train Acc: 83.71%  |  Val Acc: 96.35%  |  LR: 0.000391
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (96.35%)]         <-
+Epoka [32/100]  |  Train Acc: 86.06%  |  Val Acc: 94.98%  |  LR: 0.000384
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [33/100]  |  Train Acc: 86.69%  |  Val Acc: 96.58%  |  LR: 0.000377
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (96.58%)]         <-
+Epoka [34/100]  |  Train Acc: 86.57%  |  Val Acc: 97.03%  |  LR: 0.000371
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (97.03%)]         <-
+Epoka [35/100]  |  Train Acc: 88.69%  |  Val Acc: 97.49%  |  LR: 0.000364
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (97.49%)]         <-
+Epoka [36/100]  |  Train Acc: 87.31%  |  Val Acc: 96.80%  |  LR: 0.000357
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [37/100]  |  Train Acc: 88.23%  |  Val Acc: 95.66%  |  LR: 0.000349
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [38/100]  |  Train Acc: 88.46%  |  Val Acc: 95.21%  |  LR: 0.000342
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [39/100]  |  Train Acc: 88.46%  |  Val Acc: 97.72%  |  LR: 0.000335
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (97.72%)]         <-
+Epoka [40/100]  |  Train Acc: 89.14%  |  Val Acc: 97.26%  |  LR: 0.000327
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [41/100]  |  Train Acc: 88.91%  |  Val Acc: 95.66%  |  LR: 0.000320
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [42/100]  |  Train Acc: 89.49%  |  Val Acc: 94.98%  |  LR: 0.000312
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [43/100]  |  Train Acc: 88.97%  |  Val Acc: 96.80%  |  LR: 0.000305
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [44/100]  |  Train Acc: 91.09%  |  Val Acc: 98.17%  |  LR: 0.000297
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (98.17%)]         <-
+Epoka [45/100]  |  Train Acc: 90.40%  |  Val Acc: 97.03%  |  LR: 0.000289
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [46/100]  |  Train Acc: 88.91%  |  Val Acc: 97.49%  |  LR: 0.000282
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [47/100]  |  Train Acc: 89.83%  |  Val Acc: 98.17%  |  LR: 0.000274
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [48/100]  |  Train Acc: 90.23%  |  Val Acc: 97.26%  |  LR: 0.000266
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [49/100]  |  Train Acc: 90.46%  |  Val Acc: 97.95%  |  LR: 0.000258
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [50/100]  |  Train Acc: 89.83%  |  Val Acc: 98.17%  |  LR: 0.000250
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [51/100]  |  Train Acc: 90.63%  |  Val Acc: 96.35%  |  LR: 0.000242
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [52/100]  |  Train Acc: 90.74%  |  Val Acc: 95.89%  |  LR: 0.000235
+!!!     [Brak poprawy: 8/20]    !!!
+Epoka [53/100]  |  Train Acc: 90.63%  |  Val Acc: 97.03%  |  LR: 0.000227
+!!!     [Brak poprawy: 9/20]    !!!
+Epoka [54/100]  |  Train Acc: 91.94%  |  Val Acc: 96.80%  |  LR: 0.000219
+!!!     [Brak poprawy: 10/20]   !!!
+Epoka [55/100]  |  Train Acc: 90.40%  |  Val Acc: 98.40%  |  LR: 0.000211
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (98.40%)]         <-
+Epoka [56/100]  |  Train Acc: 91.89%  |  Val Acc: 97.26%  |  LR: 0.000203
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [57/100]  |  Train Acc: 92.17%  |  Val Acc: 98.40%  |  LR: 0.000196
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [58/100]  |  Train Acc: 91.89%  |  Val Acc: 96.80%  |  LR: 0.000188
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [59/100]  |  Train Acc: 92.74%  |  Val Acc: 97.95%  |  LR: 0.000181
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [60/100]  |  Train Acc: 91.49%  |  Val Acc: 97.03%  |  LR: 0.000173
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [61/100]  |  Train Acc: 91.89%  |  Val Acc: 98.40%  |  LR: 0.000166
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [62/100]  |  Train Acc: 90.86%  |  Val Acc: 98.17%  |  LR: 0.000158
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [63/100]  |  Train Acc: 92.69%  |  Val Acc: 98.17%  |  LR: 0.000151
+!!!     [Brak poprawy: 8/20]    !!!
+Epoka [64/100]  |  Train Acc: 92.97%  |  Val Acc: 97.49%  |  LR: 0.000144
+!!!     [Brak poprawy: 9/20]    !!!
+Epoka [65/100]  |  Train Acc: 92.11%  |  Val Acc: 98.17%  |  LR: 0.000137
+!!!     [Brak poprawy: 10/20]   !!!
+Epoka [66/100]  |  Train Acc: 92.69%  |  Val Acc: 98.63%  |  LR: 0.000130
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (98.63%)]         <-
+Epoka [67/100]  |  Train Acc: 92.97%  |  Val Acc: 97.95%  |  LR: 0.000123
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [68/100]  |  Train Acc: 92.69%  |  Val Acc: 97.72%  |  LR: 0.000116
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [69/100]  |  Train Acc: 92.57%  |  Val Acc: 97.95%  |  LR: 0.000110
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [70/100]  |  Train Acc: 94.06%  |  Val Acc: 98.63%  |  LR: 0.000103
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [71/100]  |  Train Acc: 92.63%  |  Val Acc: 98.86%  |  LR: 0.000097
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (98.86%)]         <-
+Epoka [72/100]  |  Train Acc: 92.29%  |  Val Acc: 98.40%  |  LR: 0.000091
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [73/100]  |  Train Acc: 92.51%  |  Val Acc: 98.17%  |  LR: 0.000085
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [74/100]  |  Train Acc: 92.74%  |  Val Acc: 98.40%  |  LR: 0.000079
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [75/100]  |  Train Acc: 93.71%  |  Val Acc: 98.63%  |  LR: 0.000074
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [76/100]  |  Train Acc: 92.23%  |  Val Acc: 98.86%  |  LR: 0.000068
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [77/100]  |  Train Acc: 93.37%  |  Val Acc: 98.86%  |  LR: 0.000063
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [78/100]  |  Train Acc: 94.57%  |  Val Acc: 98.86%  |  LR: 0.000058
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [79/100]  |  Train Acc: 94.69%  |  Val Acc: 98.63%  |  LR: 0.000053
+!!!     [Brak poprawy: 8/20]    !!!
+Epoka [80/100]  |  Train Acc: 93.20%  |  Val Acc: 98.17%  |  LR: 0.000048
+!!!     [Brak poprawy: 9/20]    !!!
+Epoka [81/100]  |  Train Acc: 93.31%  |  Val Acc: 98.63%  |  LR: 0.000044
+!!!     [Brak poprawy: 10/20]   !!!
+Epoka [82/100]  |  Train Acc: 94.11%  |  Val Acc: 98.63%  |  LR: 0.000039
+!!!     [Brak poprawy: 11/20]   !!!
+Epoka [83/100]  |  Train Acc: 93.37%  |  Val Acc: 98.40%  |  LR: 0.000035
+!!!     [Brak poprawy: 12/20]   !!!
+Epoka [84/100]  |  Train Acc: 94.57%  |  Val Acc: 98.17%  |  LR: 0.000031
+!!!     [Brak poprawy: 13/20]   !!!
+Epoka [85/100]  |  Train Acc: 94.29%  |  Val Acc: 98.40%  |  LR: 0.000028
+!!!     [Brak poprawy: 14/20]   !!!
+Epoka [86/100]  |  Train Acc: 94.23%  |  Val Acc: 98.63%  |  LR: 0.000024
+!!!     [Brak poprawy: 15/20]   !!!
+Epoka [87/100]  |  Train Acc: 94.34%  |  Val Acc: 98.86%  |  LR: 0.000021
+!!!     [Brak poprawy: 16/20]   !!!
+Epoka [88/100]  |  Train Acc: 93.89%  |  Val Acc: 98.86%  |  LR: 0.000018
+!!!     [Brak poprawy: 17/20]   !!!
+Epoka [89/100]  |  Train Acc: 93.66%  |  Val Acc: 98.63%  |  LR: 0.000015
+!!!     [Brak poprawy: 18/20]   !!!
+Epoka [90/100]  |  Train Acc: 93.71%  |  Val Acc: 98.86%  |  LR: 0.000013
+!!!     [Brak poprawy: 19/20]   !!!
+Epoka [91/100]  |  Train Acc: 94.11%  |  Val Acc: 98.63%  |  LR: 0.000010
+!!!     [Brak poprawy: 20/20]   !!!
+!!! Early Stopping: Model przestał się poprawiać po 91 epokach. !!!
+Rysowanie wykresów...
+
+--- Start Treningu | Batch 64 LR 0.0005 Kernel 7 Filters 32 Dropout 0.2 ---
+Epoka [1/100]   |  Train Acc: 34.00%  |  Val Acc: 32.42%  |  LR: 0.000500
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (32.42%)]         <-
+Epoka [2/100]   |  Train Acc: 35.26%  |  Val Acc: 32.42%  |  LR: 0.000500
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [3/100]   |  Train Acc: 36.06%  |  Val Acc: 33.33%  |  LR: 0.000499
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (33.33%)]         <-
+Epoka [4/100]   |  Train Acc: 40.40%  |  Val Acc: 54.34%  |  LR: 0.000498
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (54.34%)]         <-
+Epoka [5/100]   |  Train Acc: 44.40%  |  Val Acc: 50.91%  |  LR: 0.000497
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [6/100]   |  Train Acc: 43.60%  |  Val Acc: 51.14%  |  LR: 0.000496
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [7/100]   |  Train Acc: 44.80%  |  Val Acc: 81.74%  |  LR: 0.000494
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (81.74%)]         <-
+Epoka [8/100]   |  Train Acc: 47.03%  |  Val Acc: 81.51%  |  LR: 0.000492
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [9/100]   |  Train Acc: 48.91%  |  Val Acc: 69.41%  |  LR: 0.000490
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [10/100]  |  Train Acc: 49.49%  |  Val Acc: 82.42%  |  LR: 0.000488
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (82.42%)]         <-
+Epoka [11/100]  |  Train Acc: 53.49%  |  Val Acc: 77.85%  |  LR: 0.000485
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [12/100]  |  Train Acc: 55.49%  |  Val Acc: 82.19%  |  LR: 0.000482
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [13/100]  |  Train Acc: 59.89%  |  Val Acc: 87.90%  |  LR: 0.000479
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (87.90%)]         <-
+Epoka [14/100]  |  Train Acc: 60.69%  |  Val Acc: 88.36%  |  LR: 0.000476
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (88.36%)]         <-
+Epoka [15/100]  |  Train Acc: 60.17%  |  Val Acc: 85.39%  |  LR: 0.000473
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [16/100]  |  Train Acc: 67.49%  |  Val Acc: 89.27%  |  LR: 0.000469
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (89.27%)]         <-
+Epoka [17/100]  |  Train Acc: 66.63%  |  Val Acc: 89.73%  |  LR: 0.000465
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (89.73%)]         <-
+Epoka [18/100]  |  Train Acc: 68.91%  |  Val Acc: 88.81%  |  LR: 0.000461
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [19/100]  |  Train Acc: 72.80%  |  Val Acc: 89.27%  |  LR: 0.000457
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [20/100]  |  Train Acc: 71.26%  |  Val Acc: 86.07%  |  LR: 0.000452
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [21/100]  |  Train Acc: 72.57%  |  Val Acc: 86.76%  |  LR: 0.000448
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [22/100]  |  Train Acc: 73.66%  |  Val Acc: 87.44%  |  LR: 0.000443
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [23/100]  |  Train Acc: 74.80%  |  Val Acc: 90.41%  |  LR: 0.000438
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (90.41%)]         <-
+Epoka [24/100]  |  Train Acc: 77.09%  |  Val Acc: 95.21%  |  LR: 0.000432
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (95.21%)]         <-
+Epoka [25/100]  |  Train Acc: 78.74%  |  Val Acc: 95.66%  |  LR: 0.000427
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (95.66%)]         <-
+Epoka [26/100]  |  Train Acc: 80.29%  |  Val Acc: 96.58%  |  LR: 0.000421
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (96.58%)]         <-
+Epoka [27/100]  |  Train Acc: 79.14%  |  Val Acc: 94.75%  |  LR: 0.000415
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [28/100]  |  Train Acc: 80.29%  |  Val Acc: 93.84%  |  LR: 0.000409
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [29/100]  |  Train Acc: 80.29%  |  Val Acc: 91.78%  |  LR: 0.000403
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [30/100]  |  Train Acc: 81.83%  |  Val Acc: 96.58%  |  LR: 0.000397
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [31/100]  |  Train Acc: 83.26%  |  Val Acc: 96.12%  |  LR: 0.000391
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [32/100]  |  Train Acc: 84.91%  |  Val Acc: 94.06%  |  LR: 0.000384
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [33/100]  |  Train Acc: 85.14%  |  Val Acc: 94.06%  |  LR: 0.000377
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [34/100]  |  Train Acc: 86.46%  |  Val Acc: 95.89%  |  LR: 0.000371
+!!!     [Brak poprawy: 8/20]    !!!
+Epoka [35/100]  |  Train Acc: 84.57%  |  Val Acc: 94.75%  |  LR: 0.000364
+!!!     [Brak poprawy: 9/20]    !!!
+Epoka [36/100]  |  Train Acc: 86.40%  |  Val Acc: 93.15%  |  LR: 0.000357
+!!!     [Brak poprawy: 10/20]   !!!
+Epoka [37/100]  |  Train Acc: 84.34%  |  Val Acc: 92.92%  |  LR: 0.000349
+!!!     [Brak poprawy: 11/20]   !!!
+Epoka [38/100]  |  Train Acc: 85.94%  |  Val Acc: 97.72%  |  LR: 0.000342
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (97.72%)]         <-
+Epoka [39/100]  |  Train Acc: 86.86%  |  Val Acc: 97.03%  |  LR: 0.000335
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [40/100]  |  Train Acc: 89.26%  |  Val Acc: 97.03%  |  LR: 0.000327
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [41/100]  |  Train Acc: 88.46%  |  Val Acc: 96.35%  |  LR: 0.000320
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [42/100]  |  Train Acc: 87.54%  |  Val Acc: 97.72%  |  LR: 0.000312
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [43/100]  |  Train Acc: 86.69%  |  Val Acc: 97.26%  |  LR: 0.000305
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [44/100]  |  Train Acc: 87.89%  |  Val Acc: 97.26%  |  LR: 0.000297
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [45/100]  |  Train Acc: 88.29%  |  Val Acc: 97.26%  |  LR: 0.000289
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [46/100]  |  Train Acc: 89.03%  |  Val Acc: 96.12%  |  LR: 0.000282
+!!!     [Brak poprawy: 8/20]    !!!
+Epoka [47/100]  |  Train Acc: 88.80%  |  Val Acc: 98.40%  |  LR: 0.000274
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (98.40%)]         <-
+Epoka [48/100]  |  Train Acc: 90.00%  |  Val Acc: 96.80%  |  LR: 0.000266
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [49/100]  |  Train Acc: 88.86%  |  Val Acc: 97.95%  |  LR: 0.000258
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [50/100]  |  Train Acc: 89.77%  |  Val Acc: 95.89%  |  LR: 0.000250
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [51/100]  |  Train Acc: 89.43%  |  Val Acc: 97.95%  |  LR: 0.000242
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [52/100]  |  Train Acc: 89.77%  |  Val Acc: 97.49%  |  LR: 0.000235
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [53/100]  |  Train Acc: 90.80%  |  Val Acc: 97.72%  |  LR: 0.000227
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [54/100]  |  Train Acc: 90.17%  |  Val Acc: 97.95%  |  LR: 0.000219
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [55/100]  |  Train Acc: 91.14%  |  Val Acc: 98.86%  |  LR: 0.000211
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (98.86%)]         <-
+Epoka [56/100]  |  Train Acc: 89.94%  |  Val Acc: 98.63%  |  LR: 0.000203
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [57/100]  |  Train Acc: 90.69%  |  Val Acc: 98.63%  |  LR: 0.000196
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [58/100]  |  Train Acc: 90.17%  |  Val Acc: 98.86%  |  LR: 0.000188
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [59/100]  |  Train Acc: 91.77%  |  Val Acc: 98.40%  |  LR: 0.000181
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [60/100]  |  Train Acc: 89.77%  |  Val Acc: 98.63%  |  LR: 0.000173
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [61/100]  |  Train Acc: 90.11%  |  Val Acc: 98.40%  |  LR: 0.000166
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [62/100]  |  Train Acc: 92.34%  |  Val Acc: 98.86%  |  LR: 0.000158
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [63/100]  |  Train Acc: 90.63%  |  Val Acc: 98.86%  |  LR: 0.000151
+!!!     [Brak poprawy: 8/20]    !!!
+Epoka [64/100]  |  Train Acc: 91.66%  |  Val Acc: 98.63%  |  LR: 0.000144
+!!!     [Brak poprawy: 9/20]    !!!
+Epoka [65/100]  |  Train Acc: 91.14%  |  Val Acc: 99.09%  |  LR: 0.000137
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (99.09%)]         <-
+Epoka [66/100]  |  Train Acc: 91.66%  |  Val Acc: 98.86%  |  LR: 0.000130
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [67/100]  |  Train Acc: 92.51%  |  Val Acc: 98.40%  |  LR: 0.000123
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [68/100]  |  Train Acc: 92.23%  |  Val Acc: 98.40%  |  LR: 0.000116
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [69/100]  |  Train Acc: 92.40%  |  Val Acc: 98.40%  |  LR: 0.000110
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [70/100]  |  Train Acc: 91.54%  |  Val Acc: 98.40%  |  LR: 0.000103
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [71/100]  |  Train Acc: 91.26%  |  Val Acc: 97.95%  |  LR: 0.000097
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [72/100]  |  Train Acc: 92.80%  |  Val Acc: 98.40%  |  LR: 0.000091
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [73/100]  |  Train Acc: 92.80%  |  Val Acc: 98.63%  |  LR: 0.000085
+!!!     [Brak poprawy: 8/20]    !!!
+Epoka [74/100]  |  Train Acc: 92.69%  |  Val Acc: 98.86%  |  LR: 0.000079
+!!!     [Brak poprawy: 9/20]    !!!
+Epoka [75/100]  |  Train Acc: 92.17%  |  Val Acc: 98.63%  |  LR: 0.000074
+!!!     [Brak poprawy: 10/20]   !!!
+Epoka [76/100]  |  Train Acc: 93.31%  |  Val Acc: 98.63%  |  LR: 0.000068
+!!!     [Brak poprawy: 11/20]   !!!
+Epoka [77/100]  |  Train Acc: 93.37%  |  Val Acc: 98.63%  |  LR: 0.000063
+!!!     [Brak poprawy: 12/20]   !!!
+Epoka [78/100]  |  Train Acc: 92.74%  |  Val Acc: 98.86%  |  LR: 0.000058
+!!!     [Brak poprawy: 13/20]   !!!
+Epoka [79/100]  |  Train Acc: 92.91%  |  Val Acc: 98.86%  |  LR: 0.000053
+!!!     [Brak poprawy: 14/20]   !!!
+Epoka [80/100]  |  Train Acc: 93.66%  |  Val Acc: 98.86%  |  LR: 0.000048
+!!!     [Brak poprawy: 15/20]   !!!
+Epoka [81/100]  |  Train Acc: 92.69%  |  Val Acc: 98.63%  |  LR: 0.000044
+!!!     [Brak poprawy: 16/20]   !!!
+Epoka [82/100]  |  Train Acc: 92.63%  |  Val Acc: 98.63%  |  LR: 0.000039
+!!!     [Brak poprawy: 17/20]   !!!
+Epoka [83/100]  |  Train Acc: 93.77%  |  Val Acc: 98.86%  |  LR: 0.000035
+!!!     [Brak poprawy: 18/20]   !!!
+Epoka [84/100]  |  Train Acc: 92.97%  |  Val Acc: 98.86%  |  LR: 0.000031
+!!!     [Brak poprawy: 19/20]   !!!
+Epoka [85/100]  |  Train Acc: 93.94%  |  Val Acc: 98.63%  |  LR: 0.000028
+!!!     [Brak poprawy: 20/20]   !!!
+!!! Early Stopping: Model przestał się poprawiać po 85 epokach. !!!
+Rysowanie wykresów...
+
+--- Start Treningu | Batch 64 LR 0.0005 Kernel 7 Filters 32 Dropout 0.2 ---
+Epoka [1/100]   |  Train Acc: 39.83%  |  Val Acc: 39.50%  |  LR: 0.000500
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (39.50%)]         <-
+Epoka [2/100]   |  Train Acc: 42.23%  |  Val Acc: 52.97%  |  LR: 0.000500
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (52.97%)]         <-
+Epoka [3/100]   |  Train Acc: 44.29%  |  Val Acc: 48.63%  |  LR: 0.000499
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [4/100]   |  Train Acc: 44.91%  |  Val Acc: 46.35%  |  LR: 0.000498
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [5/100]   |  Train Acc: 44.74%  |  Val Acc: 65.98%  |  LR: 0.000497
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (65.98%)]         <-
+Epoka [6/100]   |  Train Acc: 48.80%  |  Val Acc: 60.96%  |  LR: 0.000496
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [7/100]   |  Train Acc: 48.91%  |  Val Acc: 66.67%  |  LR: 0.000494
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (66.67%)]         <-
+Epoka [8/100]   |  Train Acc: 51.31%  |  Val Acc: 68.49%  |  LR: 0.000492
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (68.49%)]         <-
+Epoka [9/100]   |  Train Acc: 53.49%  |  Val Acc: 79.91%  |  LR: 0.000490
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (79.91%)]         <-
+Epoka [10/100]  |  Train Acc: 56.80%  |  Val Acc: 70.78%  |  LR: 0.000488
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [11/100]  |  Train Acc: 57.71%  |  Val Acc: 93.15%  |  LR: 0.000485
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (93.15%)]         <-
+Epoka [12/100]  |  Train Acc: 59.20%  |  Val Acc: 81.05%  |  LR: 0.000482
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [13/100]  |  Train Acc: 65.71%  |  Val Acc: 89.27%  |  LR: 0.000479
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [14/100]  |  Train Acc: 67.09%  |  Val Acc: 88.58%  |  LR: 0.000476
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [15/100]  |  Train Acc: 69.31%  |  Val Acc: 88.13%  |  LR: 0.000473
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [16/100]  |  Train Acc: 70.51%  |  Val Acc: 89.27%  |  LR: 0.000469
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [17/100]  |  Train Acc: 75.60%  |  Val Acc: 93.38%  |  LR: 0.000465
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (93.38%)]         <-
+Epoka [18/100]  |  Train Acc: 74.29%  |  Val Acc: 94.29%  |  LR: 0.000461
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (94.29%)]         <-
+Epoka [19/100]  |  Train Acc: 75.60%  |  Val Acc: 94.06%  |  LR: 0.000457
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [20/100]  |  Train Acc: 78.06%  |  Val Acc: 96.12%  |  LR: 0.000452
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (96.12%)]         <-
+Epoka [21/100]  |  Train Acc: 77.77%  |  Val Acc: 87.44%  |  LR: 0.000448
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [22/100]  |  Train Acc: 76.57%  |  Val Acc: 90.41%  |  LR: 0.000443
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [23/100]  |  Train Acc: 81.94%  |  Val Acc: 90.18%  |  LR: 0.000438
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [24/100]  |  Train Acc: 80.11%  |  Val Acc: 92.24%  |  LR: 0.000432
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [25/100]  |  Train Acc: 82.40%  |  Val Acc: 91.32%  |  LR: 0.000427
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [26/100]  |  Train Acc: 83.49%  |  Val Acc: 94.52%  |  LR: 0.000421
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [27/100]  |  Train Acc: 83.54%  |  Val Acc: 93.38%  |  LR: 0.000415
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [28/100]  |  Train Acc: 83.20%  |  Val Acc: 96.35%  |  LR: 0.000409
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (96.35%)]         <-
+Epoka [29/100]  |  Train Acc: 84.74%  |  Val Acc: 91.78%  |  LR: 0.000403
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [30/100]  |  Train Acc: 84.17%  |  Val Acc: 90.87%  |  LR: 0.000397
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [31/100]  |  Train Acc: 85.49%  |  Val Acc: 93.84%  |  LR: 0.000391
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [32/100]  |  Train Acc: 85.09%  |  Val Acc: 94.52%  |  LR: 0.000384
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [33/100]  |  Train Acc: 85.26%  |  Val Acc: 91.78%  |  LR: 0.000377
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [34/100]  |  Train Acc: 85.31%  |  Val Acc: 95.89%  |  LR: 0.000371
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [35/100]  |  Train Acc: 87.03%  |  Val Acc: 96.12%  |  LR: 0.000364
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [36/100]  |  Train Acc: 84.86%  |  Val Acc: 96.12%  |  LR: 0.000357
+!!!     [Brak poprawy: 8/20]    !!!
+Epoka [37/100]  |  Train Acc: 86.80%  |  Val Acc: 97.26%  |  LR: 0.000349
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (97.26%)]         <-
+Epoka [38/100]  |  Train Acc: 87.31%  |  Val Acc: 98.17%  |  LR: 0.000342
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (98.17%)]         <-
+Epoka [39/100]  |  Train Acc: 87.14%  |  Val Acc: 94.98%  |  LR: 0.000335
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [40/100]  |  Train Acc: 86.29%  |  Val Acc: 96.58%  |  LR: 0.000327
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [41/100]  |  Train Acc: 89.09%  |  Val Acc: 97.95%  |  LR: 0.000320
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [42/100]  |  Train Acc: 88.34%  |  Val Acc: 98.86%  |  LR: 0.000312
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (98.86%)]         <-
+Epoka [43/100]  |  Train Acc: 87.26%  |  Val Acc: 96.80%  |  LR: 0.000305
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [44/100]  |  Train Acc: 89.37%  |  Val Acc: 98.63%  |  LR: 0.000297
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [45/100]  |  Train Acc: 91.26%  |  Val Acc: 95.43%  |  LR: 0.000289
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [46/100]  |  Train Acc: 89.20%  |  Val Acc: 95.66%  |  LR: 0.000282
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [47/100]  |  Train Acc: 89.03%  |  Val Acc: 97.03%  |  LR: 0.000274
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [48/100]  |  Train Acc: 88.97%  |  Val Acc: 97.72%  |  LR: 0.000266
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [49/100]  |  Train Acc: 90.11%  |  Val Acc: 97.72%  |  LR: 0.000258
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [50/100]  |  Train Acc: 90.57%  |  Val Acc: 94.75%  |  LR: 0.000250
+!!!     [Brak poprawy: 8/20]    !!!
+Epoka [51/100]  |  Train Acc: 90.40%  |  Val Acc: 96.80%  |  LR: 0.000242
+!!!     [Brak poprawy: 9/20]    !!!
+Epoka [52/100]  |  Train Acc: 90.86%  |  Val Acc: 95.43%  |  LR: 0.000235
+!!!     [Brak poprawy: 10/20]   !!!
+Epoka [53/100]  |  Train Acc: 90.80%  |  Val Acc: 97.49%  |  LR: 0.000227
+!!!     [Brak poprawy: 11/20]   !!!
+Epoka [54/100]  |  Train Acc: 90.46%  |  Val Acc: 98.40%  |  LR: 0.000219
+!!!     [Brak poprawy: 12/20]   !!!
+Epoka [55/100]  |  Train Acc: 91.31%  |  Val Acc: 98.40%  |  LR: 0.000211
+!!!     [Brak poprawy: 13/20]   !!!
+Epoka [56/100]  |  Train Acc: 91.66%  |  Val Acc: 97.95%  |  LR: 0.000203
+!!!     [Brak poprawy: 14/20]   !!!
+Epoka [57/100]  |  Train Acc: 91.49%  |  Val Acc: 98.63%  |  LR: 0.000196
+!!!     [Brak poprawy: 15/20]   !!!
+Epoka [58/100]  |  Train Acc: 92.34%  |  Val Acc: 98.63%  |  LR: 0.000188
+!!!     [Brak poprawy: 16/20]   !!!
+Epoka [59/100]  |  Train Acc: 90.91%  |  Val Acc: 98.17%  |  LR: 0.000181
+!!!     [Brak poprawy: 17/20]   !!!
+Epoka [60/100]  |  Train Acc: 91.49%  |  Val Acc: 98.40%  |  LR: 0.000173
+!!!     [Brak poprawy: 18/20]   !!!
+Epoka [61/100]  |  Train Acc: 90.91%  |  Val Acc: 98.86%  |  LR: 0.000166
+!!!     [Brak poprawy: 19/20]   !!!
+Epoka [62/100]  |  Train Acc: 92.86%  |  Val Acc: 98.63%  |  LR: 0.000158
+!!!     [Brak poprawy: 20/20]   !!!
+!!! Early Stopping: Model przestał się poprawiać po 62 epokach. !!!
+Rysowanie wykresów...
+
+--- Start Treningu | Batch 64 LR 0.0005 Kernel 7 Filters 32 Dropout 0.2 ---
+Epoka [1/100]   |  Train Acc: 36.63%  |  Val Acc: 50.46%  |  LR: 0.000500
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (50.46%)]         <-
+Epoka [2/100]   |  Train Acc: 40.80%  |  Val Acc: 52.74%  |  LR: 0.000500
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (52.74%)]         <-
+Epoka [3/100]   |  Train Acc: 42.23%  |  Val Acc: 41.32%  |  LR: 0.000499
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [4/100]   |  Train Acc: 46.06%  |  Val Acc: 75.57%  |  LR: 0.000498
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (75.57%)]         <-
+Epoka [5/100]   |  Train Acc: 45.37%  |  Val Acc: 62.10%  |  LR: 0.000497
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [6/100]   |  Train Acc: 48.06%  |  Val Acc: 40.18%  |  LR: 0.000496
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [7/100]   |  Train Acc: 49.49%  |  Val Acc: 67.81%  |  LR: 0.000494
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [8/100]   |  Train Acc: 53.54%  |  Val Acc: 80.59%  |  LR: 0.000492
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (80.59%)]         <-
+Epoka [9/100]   |  Train Acc: 55.43%  |  Val Acc: 86.99%  |  LR: 0.000490
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (86.99%)]         <-
+Epoka [10/100]  |  Train Acc: 61.66%  |  Val Acc: 66.21%  |  LR: 0.000488
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [11/100]  |  Train Acc: 62.69%  |  Val Acc: 80.37%  |  LR: 0.000485
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [12/100]  |  Train Acc: 64.46%  |  Val Acc: 87.67%  |  LR: 0.000482
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (87.67%)]         <-
+Epoka [13/100]  |  Train Acc: 70.34%  |  Val Acc: 83.56%  |  LR: 0.000479
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [14/100]  |  Train Acc: 73.20%  |  Val Acc: 89.50%  |  LR: 0.000476
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (89.50%)]         <-
+Epoka [15/100]  |  Train Acc: 71.26%  |  Val Acc: 90.87%  |  LR: 0.000473
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (90.87%)]         <-
+Epoka [16/100]  |  Train Acc: 72.86%  |  Val Acc: 81.74%  |  LR: 0.000469
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [17/100]  |  Train Acc: 76.91%  |  Val Acc: 82.65%  |  LR: 0.000465
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [18/100]  |  Train Acc: 78.46%  |  Val Acc: 94.06%  |  LR: 0.000461
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (94.06%)]         <-
+Epoka [19/100]  |  Train Acc: 79.14%  |  Val Acc: 94.29%  |  LR: 0.000457
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (94.29%)]         <-
+Epoka [20/100]  |  Train Acc: 79.66%  |  Val Acc: 94.75%  |  LR: 0.000452
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (94.75%)]         <-
+Epoka [21/100]  |  Train Acc: 80.23%  |  Val Acc: 94.29%  |  LR: 0.000448
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [22/100]  |  Train Acc: 82.11%  |  Val Acc: 94.75%  |  LR: 0.000443
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [23/100]  |  Train Acc: 81.94%  |  Val Acc: 91.10%  |  LR: 0.000438
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [24/100]  |  Train Acc: 82.34%  |  Val Acc: 95.66%  |  LR: 0.000432
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (95.66%)]         <-
+Epoka [25/100]  |  Train Acc: 83.77%  |  Val Acc: 95.66%  |  LR: 0.000427
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [26/100]  |  Train Acc: 85.26%  |  Val Acc: 92.92%  |  LR: 0.000421
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [27/100]  |  Train Acc: 86.29%  |  Val Acc: 94.52%  |  LR: 0.000415
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [28/100]  |  Train Acc: 84.86%  |  Val Acc: 94.29%  |  LR: 0.000409
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [29/100]  |  Train Acc: 85.03%  |  Val Acc: 94.06%  |  LR: 0.000403
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [30/100]  |  Train Acc: 86.46%  |  Val Acc: 97.26%  |  LR: 0.000397
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (97.26%)]         <-
+Epoka [31/100]  |  Train Acc: 87.09%  |  Val Acc: 93.38%  |  LR: 0.000391
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [32/100]  |  Train Acc: 88.63%  |  Val Acc: 96.12%  |  LR: 0.000384
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [33/100]  |  Train Acc: 87.03%  |  Val Acc: 98.17%  |  LR: 0.000377
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (98.17%)]         <-
+Epoka [34/100]  |  Train Acc: 87.49%  |  Val Acc: 96.12%  |  LR: 0.000371
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [35/100]  |  Train Acc: 88.97%  |  Val Acc: 97.95%  |  LR: 0.000364
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [36/100]  |  Train Acc: 88.91%  |  Val Acc: 95.66%  |  LR: 0.000357
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [37/100]  |  Train Acc: 88.57%  |  Val Acc: 97.03%  |  LR: 0.000349
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [38/100]  |  Train Acc: 88.86%  |  Val Acc: 97.72%  |  LR: 0.000342
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [39/100]  |  Train Acc: 88.86%  |  Val Acc: 98.63%  |  LR: 0.000335
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (98.63%)]         <-
+Epoka [40/100]  |  Train Acc: 89.66%  |  Val Acc: 97.03%  |  LR: 0.000327
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [41/100]  |  Train Acc: 91.09%  |  Val Acc: 97.72%  |  LR: 0.000320
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [42/100]  |  Train Acc: 87.83%  |  Val Acc: 96.80%  |  LR: 0.000312
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [43/100]  |  Train Acc: 89.20%  |  Val Acc: 97.26%  |  LR: 0.000305
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [44/100]  |  Train Acc: 89.89%  |  Val Acc: 98.63%  |  LR: 0.000297
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [45/100]  |  Train Acc: 90.29%  |  Val Acc: 96.80%  |  LR: 0.000289
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [46/100]  |  Train Acc: 90.80%  |  Val Acc: 96.12%  |  LR: 0.000282
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [47/100]  |  Train Acc: 89.60%  |  Val Acc: 98.63%  |  LR: 0.000274
+!!!     [Brak poprawy: 8/20]    !!!
+Epoka [48/100]  |  Train Acc: 90.23%  |  Val Acc: 97.72%  |  LR: 0.000266
+!!!     [Brak poprawy: 9/20]    !!!
+Epoka [49/100]  |  Train Acc: 91.14%  |  Val Acc: 97.95%  |  LR: 0.000258
+!!!     [Brak poprawy: 10/20]   !!!
+Epoka [50/100]  |  Train Acc: 92.40%  |  Val Acc: 97.95%  |  LR: 0.000250
+!!!     [Brak poprawy: 11/20]   !!!
+Epoka [51/100]  |  Train Acc: 91.37%  |  Val Acc: 96.35%  |  LR: 0.000242
+!!!     [Brak poprawy: 12/20]   !!!
+Epoka [52/100]  |  Train Acc: 92.57%  |  Val Acc: 98.63%  |  LR: 0.000235
+!!!     [Brak poprawy: 13/20]   !!!
+Epoka [53/100]  |  Train Acc: 90.97%  |  Val Acc: 96.58%  |  LR: 0.000227
+!!!     [Brak poprawy: 14/20]   !!!
+Epoka [54/100]  |  Train Acc: 90.91%  |  Val Acc: 97.72%  |  LR: 0.000219
+!!!     [Brak poprawy: 15/20]   !!!
+Epoka [55/100]  |  Train Acc: 91.26%  |  Val Acc: 97.95%  |  LR: 0.000211
+!!!     [Brak poprawy: 16/20]   !!!
+Epoka [56/100]  |  Train Acc: 92.57%  |  Val Acc: 98.17%  |  LR: 0.000203
+!!!     [Brak poprawy: 17/20]   !!!
+Epoka [57/100]  |  Train Acc: 92.97%  |  Val Acc: 97.49%  |  LR: 0.000196
+!!!     [Brak poprawy: 18/20]   !!!
+Epoka [58/100]  |  Train Acc: 92.46%  |  Val Acc: 98.17%  |  LR: 0.000188
+!!!     [Brak poprawy: 19/20]   !!!
+Epoka [59/100]  |  Train Acc: 93.20%  |  Val Acc: 97.95%  |  LR: 0.000181
+!!!     [Brak poprawy: 20/20]   !!!
+!!! Early Stopping: Model przestał się poprawiać po 59 epokach. !!!
+Rysowanie wykresów...
+
+--- Start Treningu | Batch 64 LR 0.0005 Kernel 7 Filters 32 Dropout 0.2 ---
+Epoka [1/100]   |  Train Acc: 35.43%  |  Val Acc: 56.39%  |  LR: 0.000500
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (56.39%)]         <-
+Epoka [2/100]   |  Train Acc: 37.83%  |  Val Acc: 46.58%  |  LR: 0.000500
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [3/100]   |  Train Acc: 37.54%  |  Val Acc: 33.79%  |  LR: 0.000499
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [4/100]   |  Train Acc: 39.83%  |  Val Acc: 52.51%  |  LR: 0.000498
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [5/100]   |  Train Acc: 38.51%  |  Val Acc: 60.05%  |  LR: 0.000497
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (60.05%)]         <-
+Epoka [6/100]   |  Train Acc: 41.43%  |  Val Acc: 47.95%  |  LR: 0.000496
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [7/100]   |  Train Acc: 40.97%  |  Val Acc: 58.45%  |  LR: 0.000494
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [8/100]   |  Train Acc: 42.34%  |  Val Acc: 56.85%  |  LR: 0.000492
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [9/100]   |  Train Acc: 42.29%  |  Val Acc: 60.73%  |  LR: 0.000490
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (60.73%)]         <-
+Epoka [10/100]  |  Train Acc: 41.43%  |  Val Acc: 45.66%  |  LR: 0.000488
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [11/100]  |  Train Acc: 39.77%  |  Val Acc: 64.16%  |  LR: 0.000485
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (64.16%)]         <-
+Epoka [12/100]  |  Train Acc: 43.66%  |  Val Acc: 63.70%  |  LR: 0.000482
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [13/100]  |  Train Acc: 45.89%  |  Val Acc: 71.00%  |  LR: 0.000479
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (71.00%)]         <-
+Epoka [14/100]  |  Train Acc: 42.91%  |  Val Acc: 72.37%  |  LR: 0.000476
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (72.37%)]         <-
+Epoka [15/100]  |  Train Acc: 47.26%  |  Val Acc: 66.67%  |  LR: 0.000473
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [16/100]  |  Train Acc: 49.20%  |  Val Acc: 77.63%  |  LR: 0.000469
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (77.63%)]         <-
+Epoka [17/100]  |  Train Acc: 51.77%  |  Val Acc: 85.39%  |  LR: 0.000465
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (85.39%)]         <-
+Epoka [18/100]  |  Train Acc: 52.63%  |  Val Acc: 71.00%  |  LR: 0.000461
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [19/100]  |  Train Acc: 51.20%  |  Val Acc: 74.66%  |  LR: 0.000457
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [20/100]  |  Train Acc: 52.06%  |  Val Acc: 87.44%  |  LR: 0.000452
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (87.44%)]         <-
+Epoka [21/100]  |  Train Acc: 56.29%  |  Val Acc: 81.51%  |  LR: 0.000448
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [22/100]  |  Train Acc: 55.09%  |  Val Acc: 90.18%  |  LR: 0.000443
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (90.18%)]         <-
+Epoka [23/100]  |  Train Acc: 58.74%  |  Val Acc: 93.15%  |  LR: 0.000438
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (93.15%)]         <-
+Epoka [24/100]  |  Train Acc: 59.43%  |  Val Acc: 92.01%  |  LR: 0.000432
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [25/100]  |  Train Acc: 61.03%  |  Val Acc: 92.47%  |  LR: 0.000427
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [26/100]  |  Train Acc: 62.86%  |  Val Acc: 83.56%  |  LR: 0.000421
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [27/100]  |  Train Acc: 63.89%  |  Val Acc: 94.29%  |  LR: 0.000415
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (94.29%)]         <-
+Epoka [28/100]  |  Train Acc: 67.31%  |  Val Acc: 90.87%  |  LR: 0.000409
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [29/100]  |  Train Acc: 68.06%  |  Val Acc: 93.15%  |  LR: 0.000403
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [30/100]  |  Train Acc: 71.09%  |  Val Acc: 94.29%  |  LR: 0.000397
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [31/100]  |  Train Acc: 71.89%  |  Val Acc: 94.98%  |  LR: 0.000391
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (94.98%)]         <-
+Epoka [32/100]  |  Train Acc: 72.69%  |  Val Acc: 91.55%  |  LR: 0.000384
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [33/100]  |  Train Acc: 74.46%  |  Val Acc: 94.75%  |  LR: 0.000377
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [34/100]  |  Train Acc: 74.11%  |  Val Acc: 94.98%  |  LR: 0.000371
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [35/100]  |  Train Acc: 79.09%  |  Val Acc: 96.80%  |  LR: 0.000364
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (96.80%)]         <-
+Epoka [36/100]  |  Train Acc: 78.23%  |  Val Acc: 95.43%  |  LR: 0.000357
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [37/100]  |  Train Acc: 78.80%  |  Val Acc: 96.80%  |  LR: 0.000349
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [38/100]  |  Train Acc: 79.60%  |  Val Acc: 97.03%  |  LR: 0.000342
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (97.03%)]         <-
+Epoka [39/100]  |  Train Acc: 80.63%  |  Val Acc: 95.43%  |  LR: 0.000335
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [40/100]  |  Train Acc: 79.09%  |  Val Acc: 96.12%  |  LR: 0.000327
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [41/100]  |  Train Acc: 82.23%  |  Val Acc: 96.35%  |  LR: 0.000320
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [42/100]  |  Train Acc: 82.46%  |  Val Acc: 96.35%  |  LR: 0.000312
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [43/100]  |  Train Acc: 82.51%  |  Val Acc: 97.03%  |  LR: 0.000305
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [44/100]  |  Train Acc: 83.89%  |  Val Acc: 97.49%  |  LR: 0.000297
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (97.49%)]         <-
+Epoka [45/100]  |  Train Acc: 84.29%  |  Val Acc: 97.03%  |  LR: 0.000289
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [46/100]  |  Train Acc: 82.91%  |  Val Acc: 97.95%  |  LR: 0.000282
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (97.95%)]         <-
+Epoka [47/100]  |  Train Acc: 84.34%  |  Val Acc: 97.49%  |  LR: 0.000274
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [48/100]  |  Train Acc: 85.03%  |  Val Acc: 97.95%  |  LR: 0.000266
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [49/100]  |  Train Acc: 85.49%  |  Val Acc: 97.72%  |  LR: 0.000258
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [50/100]  |  Train Acc: 84.40%  |  Val Acc: 97.72%  |  LR: 0.000250
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [51/100]  |  Train Acc: 86.40%  |  Val Acc: 96.35%  |  LR: 0.000242
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [52/100]  |  Train Acc: 87.49%  |  Val Acc: 97.72%  |  LR: 0.000235
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [53/100]  |  Train Acc: 86.91%  |  Val Acc: 96.58%  |  LR: 0.000227
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [54/100]  |  Train Acc: 87.03%  |  Val Acc: 97.95%  |  LR: 0.000219
+!!!     [Brak poprawy: 8/20]    !!!
+Epoka [55/100]  |  Train Acc: 86.34%  |  Val Acc: 98.63%  |  LR: 0.000211
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (98.63%)]         <-
+Epoka [56/100]  |  Train Acc: 87.71%  |  Val Acc: 98.63%  |  LR: 0.000203
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [57/100]  |  Train Acc: 88.63%  |  Val Acc: 98.63%  |  LR: 0.000196
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [58/100]  |  Train Acc: 88.11%  |  Val Acc: 98.86%  |  LR: 0.000188
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (98.86%)]         <-
+Epoka [59/100]  |  Train Acc: 89.26%  |  Val Acc: 98.86%  |  LR: 0.000181
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [60/100]  |  Train Acc: 89.14%  |  Val Acc: 99.09%  |  LR: 0.000173
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (99.09%)]         <-
+Epoka [61/100]  |  Train Acc: 89.03%  |  Val Acc: 97.95%  |  LR: 0.000166
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [62/100]  |  Train Acc: 90.17%  |  Val Acc: 98.40%  |  LR: 0.000158
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [63/100]  |  Train Acc: 90.23%  |  Val Acc: 98.63%  |  LR: 0.000151
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [64/100]  |  Train Acc: 88.91%  |  Val Acc: 99.32%  |  LR: 0.000144
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (99.32%)]         <-
+Epoka [65/100]  |  Train Acc: 89.26%  |  Val Acc: 97.95%  |  LR: 0.000137
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [66/100]  |  Train Acc: 90.00%  |  Val Acc: 99.09%  |  LR: 0.000130
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [67/100]  |  Train Acc: 90.11%  |  Val Acc: 97.95%  |  LR: 0.000123
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [68/100]  |  Train Acc: 91.14%  |  Val Acc: 98.40%  |  LR: 0.000116
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [69/100]  |  Train Acc: 89.94%  |  Val Acc: 98.86%  |  LR: 0.000110
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [70/100]  |  Train Acc: 90.74%  |  Val Acc: 99.32%  |  LR: 0.000103
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [71/100]  |  Train Acc: 91.71%  |  Val Acc: 99.54%  |  LR: 0.000097
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (99.54%)]         <-
+Epoka [72/100]  |  Train Acc: 90.40%  |  Val Acc: 99.32%  |  LR: 0.000091
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [73/100]  |  Train Acc: 91.09%  |  Val Acc: 99.32%  |  LR: 0.000085
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [74/100]  |  Train Acc: 91.31%  |  Val Acc: 99.32%  |  LR: 0.000079
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [75/100]  |  Train Acc: 91.31%  |  Val Acc: 99.09%  |  LR: 0.000074
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [76/100]  |  Train Acc: 91.77%  |  Val Acc: 98.86%  |  LR: 0.000068
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [77/100]  |  Train Acc: 91.37%  |  Val Acc: 99.54%  |  LR: 0.000063
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [78/100]  |  Train Acc: 90.11%  |  Val Acc: 99.32%  |  LR: 0.000058
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [79/100]  |  Train Acc: 91.66%  |  Val Acc: 99.32%  |  LR: 0.000053
+!!!     [Brak poprawy: 8/20]    !!!
+Epoka [80/100]  |  Train Acc: 91.66%  |  Val Acc: 99.32%  |  LR: 0.000048
+!!!     [Brak poprawy: 9/20]    !!!
+Epoka [81/100]  |  Train Acc: 92.97%  |  Val Acc: 99.09%  |  LR: 0.000044
+!!!     [Brak poprawy: 10/20]   !!!
+Epoka [82/100]  |  Train Acc: 91.66%  |  Val Acc: 99.54%  |  LR: 0.000039
+!!!     [Brak poprawy: 11/20]   !!!
+Epoka [83/100]  |  Train Acc: 91.83%  |  Val Acc: 99.54%  |  LR: 0.000035
+!!!     [Brak poprawy: 12/20]   !!!
+Epoka [84/100]  |  Train Acc: 92.23%  |  Val Acc: 99.09%  |  LR: 0.000031
+!!!     [Brak poprawy: 13/20]   !!!
+Epoka [85/100]  |  Train Acc: 91.54%  |  Val Acc: 99.54%  |  LR: 0.000028
+!!!     [Brak poprawy: 14/20]   !!!
+Epoka [86/100]  |  Train Acc: 92.74%  |  Val Acc: 99.54%  |  LR: 0.000024
+!!!     [Brak poprawy: 15/20]   !!!
+Epoka [87/100]  |  Train Acc: 91.89%  |  Val Acc: 99.54%  |  LR: 0.000021
+!!!     [Brak poprawy: 16/20]   !!!
+Epoka [88/100]  |  Train Acc: 92.46%  |  Val Acc: 99.32%  |  LR: 0.000018
+!!!     [Brak poprawy: 17/20]   !!!
+Epoka [89/100]  |  Train Acc: 92.63%  |  Val Acc: 99.32%  |  LR: 0.000015
+!!!     [Brak poprawy: 18/20]   !!!
+Epoka [90/100]  |  Train Acc: 92.91%  |  Val Acc: 99.54%  |  LR: 0.000013
+!!!     [Brak poprawy: 19/20]   !!!
+Epoka [91/100]  |  Train Acc: 92.51%  |  Val Acc: 99.54%  |  LR: 0.000010
+!!!     [Brak poprawy: 20/20]   !!!
+!!! Early Stopping: Model przestał się poprawiać po 91 epokach. !!!
+Rysowanie wykresów...
+
+--- Start Treningu | Batch 64 LR 0.0005 Kernel 7 Filters 32 Dropout 0.2 ---
+Epoka [1/100]   |  Train Acc: 37.31%  |  Val Acc: 41.10%  |  LR: 0.000500
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (41.10%)]         <-
+Epoka [2/100]   |  Train Acc: 44.17%  |  Val Acc: 53.65%  |  LR: 0.000500
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (53.65%)]         <-
+Epoka [3/100]   |  Train Acc: 44.63%  |  Val Acc: 50.23%  |  LR: 0.000499
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [4/100]   |  Train Acc: 45.71%  |  Val Acc: 68.95%  |  LR: 0.000498
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (68.95%)]         <-
+Epoka [5/100]   |  Train Acc: 48.23%  |  Val Acc: 69.18%  |  LR: 0.000497
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (69.18%)]         <-
+Epoka [6/100]   |  Train Acc: 51.83%  |  Val Acc: 64.61%  |  LR: 0.000496
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [7/100]   |  Train Acc: 54.97%  |  Val Acc: 63.47%  |  LR: 0.000494
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [8/100]   |  Train Acc: 53.43%  |  Val Acc: 85.62%  |  LR: 0.000492
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (85.62%)]         <-
+Epoka [9/100]   |  Train Acc: 60.00%  |  Val Acc: 85.62%  |  LR: 0.000490
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [10/100]  |  Train Acc: 62.97%  |  Val Acc: 81.74%  |  LR: 0.000488
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [11/100]  |  Train Acc: 64.91%  |  Val Acc: 84.02%  |  LR: 0.000485
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [12/100]  |  Train Acc: 66.69%  |  Val Acc: 75.34%  |  LR: 0.000482
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [13/100]  |  Train Acc: 71.71%  |  Val Acc: 91.32%  |  LR: 0.000479
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (91.32%)]         <-
+Epoka [14/100]  |  Train Acc: 72.57%  |  Val Acc: 89.04%  |  LR: 0.000476
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [15/100]  |  Train Acc: 74.57%  |  Val Acc: 83.79%  |  LR: 0.000473
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [16/100]  |  Train Acc: 77.94%  |  Val Acc: 89.27%  |  LR: 0.000469
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [17/100]  |  Train Acc: 77.03%  |  Val Acc: 90.87%  |  LR: 0.000465
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [18/100]  |  Train Acc: 79.71%  |  Val Acc: 92.24%  |  LR: 0.000461
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (92.24%)]         <-
+Epoka [19/100]  |  Train Acc: 80.34%  |  Val Acc: 91.32%  |  LR: 0.000457
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [20/100]  |  Train Acc: 80.23%  |  Val Acc: 84.93%  |  LR: 0.000452
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [21/100]  |  Train Acc: 81.77%  |  Val Acc: 94.06%  |  LR: 0.000448
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (94.06%)]         <-
+Epoka [22/100]  |  Train Acc: 82.57%  |  Val Acc: 92.24%  |  LR: 0.000443
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [23/100]  |  Train Acc: 81.49%  |  Val Acc: 89.27%  |  LR: 0.000438
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [24/100]  |  Train Acc: 83.03%  |  Val Acc: 92.69%  |  LR: 0.000432
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [25/100]  |  Train Acc: 84.34%  |  Val Acc: 93.61%  |  LR: 0.000427
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [26/100]  |  Train Acc: 86.29%  |  Val Acc: 96.58%  |  LR: 0.000421
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (96.58%)]         <-
+Epoka [27/100]  |  Train Acc: 86.63%  |  Val Acc: 92.24%  |  LR: 0.000415
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [28/100]  |  Train Acc: 85.26%  |  Val Acc: 94.75%  |  LR: 0.000409
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [29/100]  |  Train Acc: 86.06%  |  Val Acc: 91.10%  |  LR: 0.000403
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [30/100]  |  Train Acc: 83.83%  |  Val Acc: 91.78%  |  LR: 0.000397
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [31/100]  |  Train Acc: 85.49%  |  Val Acc: 93.15%  |  LR: 0.000391
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [32/100]  |  Train Acc: 86.91%  |  Val Acc: 97.49%  |  LR: 0.000384
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (97.49%)]         <-
+Epoka [33/100]  |  Train Acc: 88.74%  |  Val Acc: 91.55%  |  LR: 0.000377
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [34/100]  |  Train Acc: 88.57%  |  Val Acc: 91.32%  |  LR: 0.000371
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [35/100]  |  Train Acc: 87.77%  |  Val Acc: 97.26%  |  LR: 0.000364
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [36/100]  |  Train Acc: 89.20%  |  Val Acc: 96.12%  |  LR: 0.000357
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [37/100]  |  Train Acc: 88.34%  |  Val Acc: 92.01%  |  LR: 0.000349
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [38/100]  |  Train Acc: 88.69%  |  Val Acc: 96.80%  |  LR: 0.000342
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [39/100]  |  Train Acc: 90.23%  |  Val Acc: 96.80%  |  LR: 0.000335
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [40/100]  |  Train Acc: 91.09%  |  Val Acc: 98.17%  |  LR: 0.000327
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (98.17%)]         <-
+Epoka [41/100]  |  Train Acc: 90.63%  |  Val Acc: 97.03%  |  LR: 0.000320
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [42/100]  |  Train Acc: 89.71%  |  Val Acc: 97.72%  |  LR: 0.000312
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [43/100]  |  Train Acc: 89.71%  |  Val Acc: 98.63%  |  LR: 0.000305
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (98.63%)]         <-
+Epoka [44/100]  |  Train Acc: 91.71%  |  Val Acc: 95.66%  |  LR: 0.000297
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [45/100]  |  Train Acc: 92.11%  |  Val Acc: 97.03%  |  LR: 0.000289
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [46/100]  |  Train Acc: 90.86%  |  Val Acc: 97.72%  |  LR: 0.000282
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [47/100]  |  Train Acc: 92.11%  |  Val Acc: 97.03%  |  LR: 0.000274
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [48/100]  |  Train Acc: 91.60%  |  Val Acc: 96.12%  |  LR: 0.000266
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [49/100]  |  Train Acc: 91.03%  |  Val Acc: 95.89%  |  LR: 0.000258
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [50/100]  |  Train Acc: 91.54%  |  Val Acc: 97.49%  |  LR: 0.000250
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [51/100]  |  Train Acc: 90.86%  |  Val Acc: 96.12%  |  LR: 0.000242
+!!!     [Brak poprawy: 8/20]    !!!
+Epoka [52/100]  |  Train Acc: 92.40%  |  Val Acc: 97.03%  |  LR: 0.000235
+!!!     [Brak poprawy: 9/20]    !!!
+Epoka [53/100]  |  Train Acc: 92.17%  |  Val Acc: 97.95%  |  LR: 0.000227
+!!!     [Brak poprawy: 10/20]   !!!
+Epoka [54/100]  |  Train Acc: 91.89%  |  Val Acc: 96.58%  |  LR: 0.000219
+!!!     [Brak poprawy: 11/20]   !!!
+Epoka [55/100]  |  Train Acc: 93.26%  |  Val Acc: 98.63%  |  LR: 0.000211
+!!!     [Brak poprawy: 12/20]   !!!
+Epoka [56/100]  |  Train Acc: 91.54%  |  Val Acc: 98.86%  |  LR: 0.000203
+->      [UWAGA: Nowy rekord walidacji! Zapisuje model (98.86%)]         <-
+Epoka [57/100]  |  Train Acc: 92.06%  |  Val Acc: 98.63%  |  LR: 0.000196
+!!!     [Brak poprawy: 1/20]    !!!
+Epoka [58/100]  |  Train Acc: 92.23%  |  Val Acc: 98.86%  |  LR: 0.000188
+!!!     [Brak poprawy: 2/20]    !!!
+Epoka [59/100]  |  Train Acc: 93.31%  |  Val Acc: 98.86%  |  LR: 0.000181
+!!!     [Brak poprawy: 3/20]    !!!
+Epoka [60/100]  |  Train Acc: 93.77%  |  Val Acc: 98.86%  |  LR: 0.000173
+!!!     [Brak poprawy: 4/20]    !!!
+Epoka [61/100]  |  Train Acc: 93.14%  |  Val Acc: 98.40%  |  LR: 0.000166
+!!!     [Brak poprawy: 5/20]    !!!
+Epoka [62/100]  |  Train Acc: 93.37%  |  Val Acc: 98.40%  |  LR: 0.000158
+!!!     [Brak poprawy: 6/20]    !!!
+Epoka [63/100]  |  Train Acc: 94.17%  |  Val Acc: 97.49%  |  LR: 0.000151
+!!!     [Brak poprawy: 7/20]    !!!
+Epoka [64/100]  |  Train Acc: 93.49%  |  Val Acc: 98.63%  |  LR: 0.000144
+!!!     [Brak poprawy: 8/20]    !!!
+Epoka [65/100]  |  Train Acc: 94.29%  |  Val Acc: 97.49%  |  LR: 0.000137
+!!!     [Brak poprawy: 9/20]    !!!
+Epoka [66/100]  |  Train Acc: 94.11%  |  Val Acc: 98.40%  |  LR: 0.000130
+!!!     [Brak poprawy: 10/20]   !!!
+Epoka [67/100]  |  Train Acc: 94.69%  |  Val Acc: 97.95%  |  LR: 0.000123
+!!!     [Brak poprawy: 11/20]   !!!
+Epoka [68/100]  |  Train Acc: 94.17%  |  Val Acc: 98.86%  |  LR: 0.000116
+!!!     [Brak poprawy: 12/20]   !!!
+Epoka [69/100]  |  Train Acc: 93.83%  |  Val Acc: 97.95%  |  LR: 0.000110
+!!!     [Brak poprawy: 13/20]   !!!
+Epoka [70/100]  |  Train Acc: 94.97%  |  Val Acc: 98.40%  |  LR: 0.000103
+!!!     [Brak poprawy: 14/20]   !!!
+Epoka [71/100]  |  Train Acc: 93.94%  |  Val Acc: 98.63%  |  LR: 0.000097
+!!!     [Brak poprawy: 15/20]   !!!
+Epoka [72/100]  |  Train Acc: 93.54%  |  Val Acc: 98.40%  |  LR: 0.000091
+!!!     [Brak poprawy: 16/20]   !!!
+Epoka [73/100]  |  Train Acc: 94.17%  |  Val Acc: 98.63%  |  LR: 0.000085
+!!!     [Brak poprawy: 17/20]   !!!
+Epoka [74/100]  |  Train Acc: 94.06%  |  Val Acc: 98.63%  |  LR: 0.000079
+!!!     [Brak poprawy: 18/20]   !!!
+Epoka [75/100]  |  Train Acc: 94.40%  |  Val Acc: 98.86%  |  LR: 0.000074
+!!!     [Brak poprawy: 19/20]   !!!
+Epoka [76/100]  |  Train Acc: 94.69%  |  Val Acc: 98.86%  |  LR: 0.000068
+!!!     [Brak poprawy: 20/20]   !!!
+!!! Early Stopping: Model przestał się poprawiać po 76 epokach. !!!
+Rysowanie wykresów...

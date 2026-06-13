@@ -1,4 +1,5 @@
 import os
+from random import shuffle
 import torch
 import matplotlib.pyplot as plt
 from torchvision import transforms
@@ -16,7 +17,7 @@ def run_live_test():
     
     try:
         # Ładujemy "mózg" z dysku
-        model.load_state_dict(torch.load('./model/rps_model_best.pth', weights_only=True))
+        model.load_state_dict(torch.load('./model/rps_model_best(99.77%).pth', weights_only=True))
         print("Mózg sieci załadowany pomyślnie!")
     except FileNotFoundError:
         print("BŁĄD: Nie mogę znaleźć 'rps_model_best.pth'. Upewnij się, że jest w tym samym folderze.")
@@ -50,6 +51,7 @@ def run_live_test():
     # 4. Rysowanie wyników
     plt.figure(figsize=(16, 12)) # Powiększone okno, żeby zmieścić 16 zdjęć
     
+    shuffle(image_files)
     for idx, filename in enumerate(image_files):
         img_path = os.path.join(folder_path, filename)
         
@@ -82,8 +84,9 @@ def run_live_test():
                   fontweight='bold')
         plt.axis('off')
 
-    plt.suptitle("Test modelu w akcji - Zbiór customVal (16 zdjęć)", fontsize=22, fontweight='bold')
+    # plt.suptitle(f"Test zbióru {folder_path} (16 zdjęć)", fontsize=22, fontweight='bold')
     plt.tight_layout()
+    plt.savefig(f"./figure/{folder_path}_test", dpi=300, bbox_inches="tight")
     plt.show()
 
 if __name__ == "__main__":
